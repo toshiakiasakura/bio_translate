@@ -1,0 +1,846 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article">
+  <?properties open_access?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">J Expo Sci Environ Epidemiol</journal-id>
+      <journal-id journal-id-type="iso-abbrev">J Expo Sci Environ Epidemiol</journal-id>
+      <journal-title-group>
+        <journal-title>Journal of Exposure Science &amp; Environmental Epidemiology</journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1559-0631</issn>
+      <issn pub-type="epub">1559-064X</issn>
+      <publisher>
+        <publisher-name>Nature Publishing Group US</publisher-name>
+        <publisher-loc>New York</publisher-loc>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">30992518</article-id>
+      <article-id pub-id-type="pmc">7197379</article-id>
+      <article-id pub-id-type="publisher-id">135</article-id>
+      <article-id pub-id-type="doi">10.1038/s41370-019-0135-4</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Long-term ozone exposures and cause-specific mortality in a US Medicare cohort</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author" corresp="yes">
+          <name>
+            <surname>Kazemiparkouhi</surname>
+            <given-names>Fatemeh</given-names>
+          </name>
+          <address>
+            <phone>+617.686.1598</phone>
+            <email>fkazem01@tufts.edu</email>
+          </address>
+          <xref ref-type="aff" rid="Aff1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Eum</surname>
+            <given-names>Ki-Do</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Wang</surname>
+            <given-names>Bingyu</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff2">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Manjourides</surname>
+            <given-names>Justin</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff3">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Suh</surname>
+            <given-names>Helen H.</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff1">1</xref>
+        </contrib>
+        <aff id="Aff1"><label>1</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0004 1936 7531</institution-id><institution-id institution-id-type="GRID">grid.429997.8</institution-id><institution>Department of Civil and Environmental Engineering, </institution><institution>Tufts University, </institution></institution-wrap>Medford, MA USA </aff>
+        <aff id="Aff2"><label>2</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0001 2173 3359</institution-id><institution-id institution-id-type="GRID">grid.261112.7</institution-id><institution>College of Computer and Information Science, </institution><institution>Northeastern University, </institution></institution-wrap>Boston, MA USA </aff>
+        <aff id="Aff3"><label>3</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0001 2173 3359</institution-id><institution-id institution-id-type="GRID">grid.261112.7</institution-id><institution>Department of Health Sciences, </institution><institution>Northeastern University, </institution></institution-wrap>Boston, MA USA </aff>
+      </contrib-group>
+      <pub-date pub-type="epub">
+        <day>16</day>
+        <month>4</month>
+        <year>2019</year>
+      </pub-date>
+      <pub-date pub-type="pmc-release">
+        <day>16</day>
+        <month>4</month>
+        <year>2019</year>
+      </pub-date>
+      <pub-date pub-type="ppub">
+        <year>2020</year>
+      </pub-date>
+      <volume>30</volume>
+      <issue>4</issue>
+      <fpage>650</fpage>
+      <lpage>658</lpage>
+      <history>
+        <date date-type="received">
+          <day>7</day>
+          <month>11</month>
+          <year>2018</year>
+        </date>
+        <date date-type="rev-recd">
+          <day>20</day>
+          <month>2</month>
+          <year>2019</year>
+        </date>
+        <date date-type="accepted">
+          <day>8</day>
+          <month>3</month>
+          <year>2019</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; The Author(s) 2019</copyright-statement>
+        <license license-type="OpenAccess">
+          <license-p><bold>Open Access</bold> This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made. The images or other third party material in this article are included in the article&#x2019;s Creative Commons license, unless indicated otherwise in a credit line to the material. If material is not included in the article&#x2019;s Creative Commons license and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this license, visit <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>.</license-p>
+        </license>
+      </permissions>
+      <abstract id="Abs1">
+        <p id="Par1">We examined the association of long-term, daily 1-h maximum O<sub>3</sub> (ozone) exposures on cause-specific mortality for 22.2 million US Medicare beneficiaries between 2000&#x2013;2008. We modeled the association between O<sub>3</sub> and mortality using age-gender-race stratified log-linear regression models, adjusted for state of residence. We examined confounding by (1) adjusting for PM<sub>2.5</sub> (particles with aerodynamic diameters &lt;2.5&#x2009;&#x3BC;m) and NO<sub>2</sub> (nitrogen dioxide) exposures, temperature, and neighborhood-level characteristics and behaviors, and (2) decomposing O<sub>3</sub> into its temporal and spatio-temporal components and comparing estimated risk ratios. We also examined sensitivity of our results to alternate exposure measures based on warm-season 8-h daily maximum and 24-h average exposures. We found increased risks from long-term O<sub>3</sub> exposures to be strongest and most consistent for mortality from respiratory disease (1.030, 95% CI: 1.027, 1.034) (including COPD (chronic obstructive pulmonary disease)), CHF (congestive heart failure), and lung cancer (1.015, 95% CI: 1.010, 1.020), with no evidence of confounding by PM<sub>2.5</sub>, NO<sub>2</sub>, and temperature and with results similar across O<sub>3</sub> exposure measures. While significant, associations between long-term O<sub>3</sub> exposures and CVD (cardiovascular)-related mortality (1.005, 95% CI: 1.003, 1.007) were confounded by PM<sub>2.5</sub> and varied with the exposure measure, with associations no longer significantly positive when warm-season 8-h maximum or 24-h average O<sub>3</sub> was used to assess exposures. In this large study, we provide strong evidence that O<sub>3</sub> exposure is associated with mortality from respiratory-related causes and for the first-time, lung cancer, but raise questions regarding O<sub>3</sub>-related impacts on CVD mortality. Our findings demonstrate the need to further identify potential confounders.</p>
+      </abstract>
+      <kwd-group xml:lang="en">
+        <title>Keywords</title>
+        <kwd>O<sub>3</sub></kwd>
+        <kwd>Air pollution</kwd>
+        <kwd>Long-term exposure</kwd>
+        <kwd>Cause-specific mortality</kwd>
+        <kwd>Confounding</kwd>
+      </kwd-group>
+      <custom-meta-group>
+        <custom-meta>
+          <meta-name>issue-copyright-statement</meta-name>
+          <meta-value>&#xA9; Springer Nature America, Inc. 2020</meta-value>
+        </custom-meta>
+      </custom-meta-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="Sec1" sec-type="introduction">
+      <title>Introduction</title>
+      <p id="Par2">A small but growing number of studies have examined associations between long-term exposure to O<sub>3</sub> and cause-specific mortality [<xref ref-type="bibr" rid="CR1">1</xref>&#x2013;<xref ref-type="bibr" rid="CR4">4</xref>], with mixed results. In an analysis of the ACS (American Cancer Society) cohort, for example, Jerrett et al. [<xref ref-type="bibr" rid="CR1">1</xref>] found significant associations between warm-season averages of 1-h daily maximum O<sub>3</sub> exposures and increased CVD, IHD (ischemic heart disease), respiratory and cardiopulmonary mortality, but not all-cause mortality. However, with the exception of respiratory mortality, these associations disappeared after adjustment for PM<sub>2.5</sub>, suggesting confounding by PM<sub>2.5</sub> of O<sub>3</sub>-mortality associations for cardiovascular-related causes [<xref ref-type="bibr" rid="CR1">1</xref>].</p>
+      <p id="Par3">Correspondingly, in a follow-up study of the ACS [<xref ref-type="bibr" rid="CR2">2</xref>], associations of year round and warm-season averages of 8-h daily maximum O<sub>3</sub> were significantly and positively associated with all-cause, circulatory, cardiovascular, and respiratory mortality. Unlike the earlier study, however, these associations, including that for CVD mortality, were not confounded by PM<sub>2.5</sub>. Findings from the CanCHEC study (Canadian Census Health and Environment Cohort) [<xref ref-type="bibr" rid="CR3">3</xref>], on the other hand, showed significant and positive associations between warm-season 8-h daily maximum O<sub>3</sub> and non-accidental, cardiometabolic disease, and cardiovascular mortality, but not respiratory, CBV (cerebrovascular disease), and lung cancer. Significant associations remained significant but were attenuated after adjustment for PM<sub>2.5</sub> and NO<sub>2</sub>. In contrast, warm-season averages of 24-h averaged O<sub>3</sub> exposure were not associated with all-cause, cardiovascular, CBV, non-malignant respiratory, and lung cancer mortality in the California Teacher&#x2019;s Study [<xref ref-type="bibr" rid="CR4">4</xref>]. While these studies suggest a relationship between average peak O<sub>3</sub> exposures and mortality, their associations for specific causes of mortality are inconsistent, perhaps due to their use of different measures of long-term O<sub>3</sub> exposure, which may not only affect O<sub>3</sub>&#x2019;s impacts on health but also confounding of O<sub>3</sub>-mortality associations by PM<sub>2.5</sub> and other pollutants.</p>
+      <p id="Par4">Yet, few studies have examined how different O<sub>3</sub> exposure measures impact associations with specific causes of death and how these impacts may affect control for potential confounders, such as PM<sub>2.5</sub> and other air pollutants. Our ability to understand these impacts may be furthered by methods that assess unmeasured confounding in air-pollution-health effect models, such as that developed by Greven et al. [<xref ref-type="bibr" rid="CR5">5</xref>]. We used this method to characterize unmeasured confounding in our recent studies of PM<sub>2.5</sub> [<xref ref-type="bibr" rid="CR6">6</xref>] and NO<sub>2</sub>-associated [<xref ref-type="bibr" rid="CR7">7</xref>] mortality risks. We showed significant and positive associations between both PM<sub>2.5</sub> and NO<sub>2</sub> associations and several causes of death, even after adjustment for other air pollutants and neighborhood-level SES (socio-economic status) and behavioral factors; however, unmeasured confounding of these risks remained. No such method has yet been applied to O<sub>3</sub> and cause-specific mortality.</p>
+      <p id="Par5">To address this issue, we examined the association between long-term O<sub>3</sub> exposures and all-cause and cause-specific mortality in a cohort of &gt;22 million Medicare beneficiaries living across the conterminous US (United States) and assessed the consistency of these associations across different measures of exposure, control for confounders, and as modified by region of residence and urbanicity.</p>
+    </sec>
+    <sec id="Sec2" sec-type="materials|methods">
+      <title>Materials and methods</title>
+      <p id="Par6">This study was approved by the Institutional Review Board of Tufts and Northeastern Universities.</p>
+      <sec id="Sec3">
+        <title>Air pollution data</title>
+        <p id="Par7">We obtained hourly O<sub>3</sub> concentrations from 1151 air quality monitors from the US EPA (Environmental Protection Agency) AQS (Air Quality System) for 2000 through 2008. These monitors, 80% of which were located in urban areas, were selected based on their having hourly measurements for 4&#x2009;+&#x2009;calendar years, with each year having data for at least five warm-season months (April&#x2013;September), with each month having at least 75% valid daily measurements. Daily measurements were determined to be valid if 75% of its hourly measurements were available. For each monitor and day, we calculated the daily maximum hourly O<sub>3</sub> concentration as our main exposure measure and averaged daily values from April through September to obtain warm-season average, 1-h daily maximum O<sub>3</sub> concentrations (hereafter referred to as the warm-season 1-h maximum O<sub>3</sub>) for each monitor and calendar year, as used in Jerrett et al. [<xref ref-type="bibr" rid="CR1">1</xref>]. In addition, we calculated two secondary exposure measures, including the (1) warm-season average of daily 8-h maximum and (2) warm-season average of 24-h average.</p>
+        <p id="Par8">To examine potential confounding, we also estimated (1) 1-year moving average PM<sub>2.5</sub> concentrations using well validated GIS-based (Geographical Information System) spatio-temporal models that estimated daily PM<sub>2.5</sub> exposures on a 6&#x2009;km grid covering the conterminous US [<xref ref-type="bibr" rid="CR8">8</xref>], (2) 1-year moving average NO<sub>2</sub> concentrations using land use regression models developed by Bechle et al. [<xref ref-type="bibr" rid="CR9">9</xref>] that estimated monthly NO<sub>2</sub> exposure for census blocks, and (3) 3-day moving average temperature using spatio-temporal GAMs that estimated daily temperature on a 6&#x2009;km grid [<xref ref-type="bibr" rid="CR8">8</xref>]. PM<sub>2.5</sub>, NO<sub>2</sub>, and temperature values were linked to corresponding O<sub>3</sub> exposures using the grid point or in the case of NO<sub>2</sub>, the census block closest to each of our study&#x2019;s O<sub>3</sub> monitors.</p>
+      </sec>
+      <sec id="Sec4">
+        <title>Medicare beneficiaries</title>
+        <p id="Par9">We compiled enrollment data from the Centers for Medicare and Medicaid Services for 52.9 million Medicare beneficiaries aged 65 to 120 between 2000&#x2013;2008. We identified those beneficiaries that resided in ZIP&#xA0;(Zone Improvement Plan) codes with a geographic centroid within a 10&#x2009;km of an eligible O<sub>3</sub> monitor between 2000&#x2013;2008. For each enrollee, we obtained information on date of birth, gender, race/ethnicity, ZIP code of residence, and survival. Using the ICD-9 (International Classification of Disease 9th version) codes from the National Death Index, we extracted mortality from non-accidental and accidental causes, as well as from all CVD (cardiovascular) and all respiratory-related causes, and specific subcategories, including IHD (ischemic heart disease), CBV (cerebrovascular) disease, CHF, COPD and pneumonia. Altogether, CVD and respiratory-related causes accounted for over 50% of all-cause mortality (Table&#xA0;<xref rid="Tab1" ref-type="table">1</xref>). We computed the number of Medicare beneficiaries and cause-specific deaths for each 5-year age interval-gender-race (white/non-white) group, monitor, and study month. To avoid excessive zero counts, we collapsed ages 90 and above into one interval.<table-wrap id="Tab1"><label>Table 1</label><caption><p>Summary statistics of ozone monitors and concentrations, Medicare enrollees, and cause-specific deaths among Medicare enrollees</p></caption><table frame="hsides" rules="groups"><thead><tr><th>Characteristics</th><th>ICD&#x2212;9 code</th><th><sub>25th</sub> Median <sub>75th%</sub><sup>a</sup></th><th>Total number</th><th>Total %</th></tr></thead><tbody><tr><td>Monitoring stations</td><td/><td/><td>1151</td><td/></tr><tr><td>O<sub>3</sub><sup>b</sup>(ppb)</td><td/><td><sub>50</sub> 55 <sub>60</sub></td><td/><td/></tr><tr><td>Medicare enrollees</td><td/><td><sub>3858</sub>11,697 <sub>28,311</sub></td><td>22,159,190</td><td/></tr><tr><td>All-cause deaths</td><td/><td><sub>724</sub> 2,471 <sub>6458</sub></td><td>5,766,091</td><td/></tr><tr><td>Non-accidental</td><td>A&#x2212;R</td><td><sub>704</sub> 2,412 <sub>6293</sub></td><td>5,637,693</td><td>97.8</td></tr><tr><td>Accidental</td><td>V&#x2212;Y</td><td><sub>21</sub> 62 <sub>155</sub></td><td>128,372</td><td>2.2</td></tr><tr><td>All cardiovascular</td><td>I00&#x2212;I99</td><td><sub>279</sub> 956 <sub>2537</sub></td><td>2,333,681</td><td>40.5</td></tr><tr><td>&#xA0;&#x2003;IHD</td><td>I20&#x2212;I25</td><td><sub>136</sub> 461 <sub>1226</sub></td><td>1,245,401</td><td>21.6</td></tr><tr><td>&#xA0;&#x2003;CBV</td><td>I60&#x2212;I69</td><td><sub>55</sub> 183 <sub>477</sub></td><td>410,187</td><td>7.1</td></tr><tr><td>&#xA0;&#x2003;CHF</td><td>I50</td><td><sub>21</sub> 73 <sub>183</sub></td><td>158,649</td><td>2.8</td></tr><tr><td>All respiratory</td><td>J00&#x2212;J99</td><td><sub>85</sub> 281 <sub>725</sub></td><td>633,216</td><td>11.0</td></tr><tr><td>&#xA0;&#x2003;COPD</td><td>J40&#x2212;J44</td><td><sub>73</sub> 155 <sub>380</sub></td><td>328,957</td><td>5.7</td></tr><tr><td>&#xA0;&#x2003;Pneumonia</td><td>J12&#x2212;J18</td><td><sub>20</sub> 67 <sub>177</sub></td><td>174,932</td><td>3.0</td></tr><tr><td>All cancer</td><td>C&#x2212;D</td><td><sub>156</sub> 534 <sub>1437</sub></td><td>1,277,716</td><td>22.2</td></tr><tr><td>&#xA0;&#x2003;Lung cancer</td><td>C34</td><td><sub>46</sub> 155 <sub>403</sub></td><td>350,357</td><td>6.1</td></tr></tbody></table><table-wrap-foot><p>Time period: 2000&#x2013;2008, USA</p><p><italic>ICD-9</italic> the 9th revision of the International Classification of Disease, <italic>O</italic><sub><italic>3</italic></sub> ozone, <italic>IHD</italic> ischemic heart disease, <italic>CBV</italic> cerebrovascular disease, <italic>CHF</italic> congestive heart failure, <italic>COPD</italic> chronic obstructive pulmonary disease</p><p>Medicare enrollees ages 65&#x2013;120</p><p><sup>a</sup>Values are medians among locations and months, with 25th and 75th percentile given in subscripts</p><p><sup>b</sup>Warm-season average of daily 1-h maximum ozone concentrations</p></table-wrap-foot></table-wrap></p>
+      </sec>
+      <sec id="Sec5">
+        <title>Statistical analyses</title>
+        <p id="Par10">We linked demographic and mortality data for our Medicare beneficiary cohort to O<sub>3</sub> concentrations measured at the monitor closest to the centroid of the ZIP code of residence.</p>
+        <p id="Par11">As our main analysis, we used log-linear regression models to examine the association between warm-season averages of 1-h maximum O<sub>3</sub> exposure and cause-specific mortality, stratified on age, gender, and race (White/non-White) and adjusted for state of residence in both single and two-pollutant models controlling for 1-year moving average PM<sub>2.5</sub> (Supplementary Appendix 1, SI (Supplementary Information)). All results are expressed as the RR (risk ratio) of dying in a given month per 10&#x2009;ppb (part per billion) increase in O<sub>3</sub> exposure and associated 95% CI (confidence interval).</p>
+        <p id="Par12">We evaluated the sensitivity of our findings to the exposure measure, replacing warm-season 1-h maximum O<sub>3</sub> concentrations with (1) warm-season average of daily 8-h maximum or (2) warm-season average of 24-h average O<sub>3</sub> concentrations in our health models in single and two-pollutant models controlling for PM<sub>2.5</sub>. We also examined whether associations differed by region of residence (Northeast, Midwest, South, West) as classified using US Census Bureau classifications (Fig.&#xA0;<xref rid="MOESM3" ref-type="media">S1</xref>, SI), and by urbanicity (urban vs. non-urban) using USGS (United States Geological Survey) Land Cover Trends classifications by stratifying our data into corresponding groups.</p>
+        <p id="Par13">To further assess potential confounding of an association between O<sub>3</sub> and mortality, we fit models that additionally adjusted for NO<sub>2</sub> and 3-day moving average temperature. We also fit multi-variable models for beneficiaries living near the 836 of the 1151 monitors for which we had demographic covariates from the 2000 U.S. Census [<xref ref-type="bibr" rid="CR10">10</xref>]. We assessed the association of O<sub>3</sub> and mortality adjusting for PM<sub>2.5</sub> with and without controlling for the proportion of the population &#x2265;25 years old with at least a high school degree, median income, and proportion of the population living in urban area within the census tract corresponding to the ZIP code centroid. The spatial distribution of the monitors with Census data was similar to that for all monitors, although with fewer monitors in the Midwest (18% vs. 24% overall) and more monitors in the West (31% vs. 26% overall) (Table&#xA0;<xref rid="MOESM5" ref-type="media">S1</xref>, SI).</p>
+        <p id="Par14">We also examined potential confounding by behavioral covariates measured in Selected Metropolitan/Micropolitan Area Risk Trends of the BRFSS (Behavioral Risk Factor Surveillance System) [<xref ref-type="bibr" rid="CR11">11</xref>] for the subset of beneficiaries living near monitors (586 of 1151 monitors) located in a county with BRFSS data. For these beneficiaries, we assessed the association of O<sub>3</sub> and mortality, adjusting for PM<sub>2.5</sub>, and with and without adjusting for potential confounding by monthly county-level prevalence of current smokers, diabetics, heavy drinkers (i.e., &gt;two drinks per day), asthma, average median income, and body mass index. Note that the spatial distribution of the monitors with BRFSS data was similar to that for all monitors, although with fewer monitors in the Midwest (16% vs. 24% overall) and more monitors in the West (31% vs. 26% overall) (Table&#xA0;<xref rid="MOESM5" ref-type="media">S1</xref>, SI). The spatial distribution of the monitors with Census and BRFSS data was similar by region.</p>
+        <p id="Par15">To examine the extent to which our findings remain affected by confounding, we followed the method suggested by Greven et al. [<xref ref-type="bibr" rid="CR5">5</xref>] and decomposed O<sub>3</sub> into two orthogonal, component measures, &#x201C;temporal&#x201D; and &#x201C;spatio-temporal&#x201D; O<sub>3</sub>, and estimated their associations with cause-specific mortality in base, PM<sub>2.5</sub>-adjusted, and BRFSS-adjusted models (Supplementary Appendix 1, SI). &#x201C;Temporal&#x201D; O<sub>3</sub>, which represents the national temporal trends in monthly O<sub>3</sub> concentrations, is O<sub>3</sub> centered by the average concentrations for all monitors and across the study period; &#x201C;spatio-temporal&#x201D; O<sub>3</sub> is a measure of the monitor-specific temporal trends in monthly O<sub>3</sub> concentrations compared to the national &#x201C;temporal&#x201D; trends. In the absence of residual confounding by long-term time trends of mortality, estimates of the &#x201C;temporal&#x201D; and &#x201C;spatio-temporal&#x201D; O<sub>3</sub> should be similar.</p>
+      </sec>
+    </sec>
+    <sec id="Sec6" sec-type="results">
+      <title>Results</title>
+      <p id="Par16">Our study population included 22.2 million Medicare enrollees residing in 260 metropolitan areas across the US (Table&#xA0;<xref rid="Tab1" ref-type="table">1</xref>), comprising 42% of all Medicare enrollees. During the study period, 5.8 million deaths were reported; 97.8% from non-accidental causes. CVD accounted for 40.5% of all mortality, followed by cancer (22.2%) and respiratory mortality (11%). More than 50% of all CVD mortality was caused by IHD. Fifty-two percent of respiratory deaths were attributed to COPD and 27.6% to pneumonia, while 27.4% of cancer deaths were attributed to lung cancer. The warm-season average of 1-h maximum O<sub>3</sub> concentration across all monitors and years was 56&#x2009;ppb (9&#x2009;ppb) and exhibited no consistent temporal trend over the study period (Fig.&#xA0;<xref rid="MOESM4" ref-type="media">S2</xref>, SI). Warm average concentrations varied by region, with concentrations highest in the West (Fig.&#xA0;<xref rid="MOESM4" ref-type="media">S2</xref>, SI). Warm-season averages of 1-h maximum O<sub>3</sub> were strongly correlated with corresponding averages of 8-h maximum (<italic>r</italic>&#x2009;=&#x2009;0.98) and 24-h average (<italic>r</italic>&#x2009;=&#x2009;0.74) levels. The correlation coefficient between the warm-season average of 1-h maximum O<sub>3</sub> and 1-year average PM<sub>2.5</sub>, 1-year average NO<sub>2</sub>, and 3-day average temperature equaled 0.24, 0.26, and 0.04, respectively.</p>
+      <p id="Par17">In single pollutant models we found a 10&#x2009;ppb increase in warm-season 1-h maximum O<sub>3</sub> to be significantly associated with an increased risk of dying from all (1.013; 95% CI: 1.012, 1.014) and non-accidental causes (1.014; 95% CI: 1.013, 1.015), but not from accidental causes (0.998; 95% CI: 0.991, 1.006) (Table&#xA0;<xref rid="Tab2" ref-type="table">2</xref>). RRs were the highest for respiratory-related causes (1.036; 95% CI: 1.032, 1.039)., with O<sub>3</sub> exposure linked to 1.065 times the risks of COPD (95% CI: 1.060, 1.069) and 1.024 times that of pneumonia (95% CI: 1.018, 1.030) deaths per 10&#x2009;ppb increase in O<sub>3</sub> exposures. Additionally, O<sub>3</sub> exposures were associated with increased risk of CVD-related mortality (1.027; 95% CI: 1.025, 1.028). For specific causes of CVD mortality, an increase in warm-season 1-h maximum O<sub>3</sub> exposure was significantly associated with 1.052 times the risk of CHF mortality (95% CI: 1.045, 1.060), 1.043 times the risks of IHD (95% CI: 1.041, 1.045) and 1.012 times that of CBV mortality (95% CI: 1.008, 1.016). One-hour maximum O<sub>3</sub> exposure was also associated with increased risk of lung cancer mortality (1.016; 95% CI: 1.011, 1.020), but not mortality from all cancers (1.000; 95% CI: 0.998, 1.003).<table-wrap id="Tab2"><label>Table 2</label><caption><p>Mortality RRs (95% CI) associated with a 10&#x2009;ppb increase in O<sub>3</sub>: single pollutant and PM<sub>2.5</sub>-adjusted models</p></caption><table frame="hsides" rules="groups"><thead><tr><th>Cause of death</th><th>Single pollutant model<sup>a</sup></th><th>PM<sub>2.5</sub>-adjusted model<sup>b</sup></th></tr></thead><tbody><tr><td>All-cause</td><td>1.013 (1.012&#x2013;1.014)</td><td>1.004 (1.003&#x2013;1.006)</td></tr><tr><td>&#xA0;&#x2003;Accidental</td><td>0.998 (0.991&#x2013;1.006)</td><td>1.010 (1.002&#x2013;1.017)</td></tr><tr><td>All cardiovascular</td><td>1.027 (1.025&#x2013;1.028)</td><td>1.005 (1.003&#x2013;1.007)</td></tr><tr><td>&#xA0;&#x2003;IHD</td><td>1.043 (1.041&#x2013;1.045)</td><td>1.008 (1.006&#x2013;1.011)</td></tr><tr><td>&#xA0;&#x2003;CBV</td><td>1.012 (1.008&#x2013;1.016)</td><td>0.993 (0.989&#x2013;0.997)</td></tr><tr><td>&#xA0;&#x2003;CHF</td><td>1.052 (1.045&#x2013;1.060)</td><td>1.063 (1.055&#x2013;1.071)</td></tr><tr><td>All respiratory</td><td>1.036 (1.032&#x2013;1.039)</td><td>1.030 (1.027&#x2013;1.034)</td></tr><tr><td>&#xA0;&#x2003;COPD</td><td>1.065 (1.060&#x2013;1.069)</td><td>1.072 (1.067&#x2013;1.077)</td></tr><tr><td>&#xA0;&#x2003;Pneumonia</td><td>1.024 (1.018&#x2013;1.030)</td><td>0.990 (0.984&#x2013;0.996)</td></tr><tr><td>All cancer</td><td>1.000 (0.998&#x2013;1.003)</td><td>0.995 (0.993&#x2013;0.998)</td></tr><tr><td>&#xA0;&#x2003;Lung cancer</td><td>1.016 (1.011&#x2013;1.020)</td><td>1.015 (1.010&#x2013;1.020)</td></tr></tbody></table><table-wrap-foot><p>Time period: 2000&#x2013;2008, USA</p><p><italic>RR</italic> risk ratio, <italic>CI</italic> confidence interval, <italic>PM</italic><sub><italic>2.5</italic></sub> particles with aerodynamic diameters &lt;2.5&#x2009;&#x3BC;m, <italic>IHD</italic> ischemic heart disease, <italic>CBV</italic> cerebrovascular disease, <italic>CHF</italic> congestive heart failure, <italic>COPD</italic> chronic obstructive pulmonary disease</p><p>Risk ratios are age, gender and race stratified, and adjusted for state of residence</p><p><sup>a</sup>Warm-season average of daily 1-h maximum ozone concentrations</p><p><sup>b</sup>Models adjusted for 1-year moving average PM<sub>2.5</sub> exposures</p></table-wrap-foot></table-wrap></p>
+      <p id="Par18">In models adjusting for PM<sub>2.5</sub>, O<sub>3</sub>-associated mortality risks remained significant and positive for all causes of death, except for CBV and pneumonia (Table&#xA0;<xref rid="Tab2" ref-type="table">2</xref>). For several causes of death, PM<sub>2.5</sub>-adjusted associations were attenuated, with RRs decreasing slightly to 1.030 (95% CI: 1.027, 1.034) for respiratory mortality and more substantially to 1.005 (95% CI: 1.003, 1.007) for CVD mortality per 10&#x2009;ppb increase in long-term O<sub>3</sub>. In contrast, for COPD and CHF mortality, RRs increased after adjustment for PM<sub>2.5</sub>, resulting in a 1.072 (95% CI: 1.067, 1.077) and 1.063 (95% CI: 1.055, 1.071) times increase in risk per 10&#x2009;ppb increase in O<sub>3</sub>, respectively.</p>
+      <p id="Par19">In models adjusting for NO<sub>2</sub>, O<sub>3</sub>-associated mortality risks remained unchanged for respiratory and lung cancer, increased slightly for CHF and COPD, and were slightly attenuated for other causes of death (Table&#xA0;<xref rid="MOESM6" ref-type="media">S2</xref>, SI). Associations were generally robust to adjustment for temperature (Table&#xA0;<xref rid="MOESM7" ref-type="media">S3</xref>, SI). As shown on Table&#xA0;<xref rid="MOESM8" ref-type="media">S4</xref> (SI), RRs of the PM<sub>2.5</sub>-adjusted association between warm-season 1-h maximum O<sub>3</sub> and mortality were essentially unchanged after adjustment for potential confounding by ecologic covariates from the 2000 U.S. Census or county-level behavioral covariates from BRFSS.</p>
+      <p id="Par20">When we examined the potential for unmeasured confounding, we found statistically significant, positive RRs for temporal O<sub>3</sub> and negative RRs for spatio-temporal O<sub>3</sub> in base models (Table&#xA0;<xref rid="Tab3" ref-type="table">3</xref>). In two-pollutant models adjusting for PM<sub>2.5</sub> (Table&#xA0;<xref rid="Tab3" ref-type="table">3</xref>) and in multi-variable models adjusted for both PM<sub>2.5</sub> and behavioral covariates (Table&#xA0;<xref rid="MOESM9" ref-type="media">S5</xref>, SI), the magnitude of &#x201C;temporal&#x201D; RRs decreased for all causes, especially in the multi-variate model, but the &#x201C;spatio-temporal&#x201D; RRs remained unchanged.<table-wrap id="Tab3"><label>Table 3</label><caption><p>Mortality RRs (95% CI) associated with a 10&#x2009;ppb increase in temporal and spatio-temporal O<sub>3</sub>: non-adjusted vs. PM<sub>2.5</sub>-adjusted model</p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="2">Cause of death</th><th colspan="2">Base model<sup>a</sup></th><th colspan="2">PM<sub>2.5</sub>-adjusted model<sup>b</sup></th></tr><tr><th>Temporal</th><th>Spatio-temporal</th><th>Temporal</th><th>Spatio-temporal</th></tr></thead><tbody><tr><td>All-cause</td><td>1.184 (1.177&#x2013;1.190)</td><td>0.990 (0.988&#x2013;0.993)</td><td>1.176 (1.170&#x2013;1.182)</td><td>0.990 (0.988&#x2013;0.993)</td></tr><tr><td>&#xA0;&#x2003;Accidental</td><td>0.979 (0.945&#x2013;1.014)</td><td>1.004 (0.987&#x2013;1.022)</td><td>0.982 (0.947&#x2013;1.017)</td><td>1.004 (0.987&#x2013;1.021)</td></tr><tr><td>All cardiovascular</td><td>1.430 (1.419&#x2013;1.442)</td><td>0.980 (0.976&#x2013;0.984)</td><td>1.408 (1.397&#x2013;1.420)</td><td>0.980 (0.977&#x2013;0.984)</td></tr><tr><td>&#xA0;&#x2003;IHD</td><td>1.570 (1.552&#x2013;1.588)</td><td>0.978 (0.972&#x2013;0.983)</td><td>1.536 (1.519&#x2013;1.554)</td><td>0.979 (0.973&#x2013;0.984)</td></tr><tr><td>&#xA0;&#x2003;CBV</td><td>1.518 (1.488&#x2013;1.548)</td><td>0.977 (0.968&#x2013;0.987)</td><td>1.489 (1.460&#x2013;1.520)</td><td>0.978 (0.969&#x2013;0.987)</td></tr><tr><td>&#xA0;&#x2003;CHF</td><td>1.137 (1.101&#x2013;1.173)</td><td>0.991 (0.976&#x2013;1.007)</td><td>1.138 (1.102&#x2013;1.175)</td><td>0.991 (0.976&#x2013;1.007)</td></tr><tr><td>All respiratory</td><td>1.178 (1.159&#x2013;1.197)</td><td>0.985 (0.977&#x2013;0.992)</td><td>1.170 (1.151&#x2013;1.189)</td><td>0.985 (0.977&#x2013;0.992)</td></tr><tr><td>&#xA0;&#x2003;COPD</td><td>1.059 (1.035&#x2013;1.082)</td><td>0.991 (0.980&#x2013;1.001)</td><td>1.057 (1.033&#x2013;1.080)</td><td>0.990 (0.980&#x2013;1.001)</td></tr><tr><td>&#xA0;&#x2003;Pneumonia</td><td>1.569 (1.521&#x2013;1.617)</td><td>0.972 (0.958&#x2013;0.986)</td><td>1.540 (1.493&#x2013;1.589)</td><td>0.972 (0.959&#x2013;0.986)</td></tr><tr><td>All cancer</td><td>1.131 (1.118&#x2013;1.144)</td><td>0.990 (0.985&#x2013;0.995)</td><td>1.126 (1.113&#x2013;1.139)</td><td>0.990 (0.985&#x2013;0.996)</td></tr><tr><td>&#xA0;&#x2003;Lung cancer</td><td>1.117 (1.093&#x2013;1.141)</td><td>0.992 (0.982&#x2013;1.003)</td><td>1.114 (1.090&#x2013;1.138)</td><td>0.992 (0.982&#x2013;1.003)</td></tr></tbody></table><table-wrap-foot><p>Time period: 2000&#x2013;2008, USA</p><p><italic>RR</italic> risk ratio, <italic>CI</italic> confidence interval, <italic>PM</italic><sub><italic>2.5</italic></sub> particles with aerodynamic diameters &lt;2.5&#x2009;&#x3BC;m, <italic>IHD</italic> ischemic heart disease, <italic>CBV</italic> cerebrovascular disease, <italic>CHF</italic> congestive heart failure, <italic>COPD</italic> chronic obstructive pulmonary disease</p><p>Risk ratios are age, gender and race stratified, and adjusted for state of residence</p><p><sup>a</sup>Warm-season average of daily 1-h maximum ozone concentrations</p><p><sup>b</sup>Models adjusted for 1-year moving average PM<sub>2.5</sub> exposures</p></table-wrap-foot></table-wrap></p>
+      <p id="Par21">Risks of death were higher for beneficiaries living in non-urban as compared to urban areas for all-cause and CVD mortality, but were similar for respiratory and COPD mortality (Table&#xA0;<xref rid="MOESM10" ref-type="media">S6</xref>, SI). For all causes of death, O<sub>3</sub>-associated mortality risks were highest in the Northeast and West as compared to the South and Midwest (Table&#xA0;<xref rid="MOESM11" ref-type="media">S7</xref>, SI). Region-specific RRs were generally lower in PM<sub>2.5</sub>-adjusted as compared to non-adjusted models for all regions except the Northeast, for which RRs were generally comparable.</p>
+      <p id="Par22">We examined the robustness of our results to the O<sub>3</sub> exposure measure (Table&#xA0;<xref rid="Tab4" ref-type="table">4</xref>). In PM<sub>2.5</sub>-adjusted models, RRs based on the warm-season average of 8-h maximum O<sub>3</sub> were similar for mortality from all causes, CHF, all respiratory, COPD, and lung cancer, but were attenuated and no longer significant for CVD and IHD mortality [note that associations between warm-season 8-h maximum O<sub>3</sub> and both CVD and IHD mortality were significant and positive in single pollutant models, suggesting confounding of 8-h maximum&#x2014;but not 1-h maximum associations&#x2014;by PM<sub>2.5</sub> (Table&#xA0;<xref rid="MOESM12" ref-type="media">S8</xref>, SI)]. Findings for warm-season averages of 24-h O<sub>3</sub> mirrored those for 8-h maximum O<sub>3</sub>, although associations with all-cause mortality were no longer positive.<table-wrap id="Tab4"><label>Table 4</label><caption><p>Mortality RRs (95% CI) associated with a 10&#x2009;ppb increase in different O<sub>3</sub> exposure measures</p></caption><table frame="hsides" rules="groups"><thead><tr><th>Cause of death</th><th>1-h Max<sup>a</sup> O<sub>3</sub></th><th>8-h Max<sup>a</sup> O<sub>3</sub></th><th>24-h Average<sup>a</sup> O<sub>3</sub></th></tr></thead><tbody><tr><td>All-cause</td><td>1.004 (1.003&#x2013;1.006)</td><td>1.002 (1.001&#x2013;1.003)</td><td>0.990 (0.988&#x2013;0.991)</td></tr><tr><td>&#xA0;&#x2003;Accidental</td><td>1.010 (1.002&#x2013;1.017)</td><td>1.018 (1.009&#x2013;1.027)</td><td>1.025 (1.014&#x2013;1.036)</td></tr><tr><td>All cardiovascular</td><td>1.005 (1.003&#x2013;1.007)</td><td>0.997 (0.995&#x2013;0.999)</td><td>0.973 (0.970&#x2013;0.975)</td></tr><tr><td>&#xA0;&#x2003;Ischemic heart disease</td><td>1.008 (1.006&#x2013;1.011)</td><td>0.996 (0.993&#x2013;0.999)</td><td>0.964 (0.960&#x2013;0.967)</td></tr><tr><td>&#xA0;&#x2003;Cerebrovascular disease</td><td>0.993 (0.989&#x2013;0.997)</td><td>0.987 (0.982&#x2013;0.991)</td><td>0.968 (0.962&#x2013;0.974)</td></tr><tr><td>&#xA0;&#x2003;Congestive heart failure</td><td>1.063 (1.055&#x2013;1.071)</td><td>1.072 (1.063&#x2013;1.080)</td><td>1.066 (1.056&#x2013;1.077)</td></tr><tr><td>All respiratory</td><td>1.030 (1.027&#x2013;1.034)</td><td>1.033 (1.030&#x2013;1.037)</td><td>1.021 (1.016&#x2013;1.026)</td></tr><tr><td>&#xA0;&#x2003;COPD</td><td>1.072 (1.067&#x2013;1.077)</td><td>1.084 (1.079&#x2013;1.089)</td><td>1.084 (1.077&#x2013;1.091)</td></tr><tr><td>&#xA0;&#x2003;Pneumonia</td><td>0.990 (0.984&#x2013;0.996)</td><td>0.978 (0.972&#x2013;0.985)</td><td>0.935 (0.927&#x2013;0.944)</td></tr><tr><td>All cancer</td><td>0.995 (0.993&#x2013;0.998)</td><td>0.993 (0.990&#x2013;0.995)</td><td>0.983 (0.980&#x2013;0.986)</td></tr><tr><td>&#xA0;&#x2003;Lung cancer</td><td>1.015 (1.010&#x2013;1.020)</td><td>1.016 (1.011&#x2013;1.021)</td><td>1.007 (1.000&#x2013;1.014)</td></tr></tbody></table><table-wrap-foot><p>Time period: 2000 &#x2013; 2008, USA</p><p><italic>RR</italic> risk ratio, <italic>CI</italic> confidence interval, <italic>IHD</italic> ischemic heart disease, <italic>CBV</italic> cerebrovascular disease, <italic>CHF</italic> congestive heart failure, <italic>COPD</italic> chronic obstructive pulmonary disease</p><p>Risk ratios are age, gender and race stratified, and adjusted for state of residence and 1-year moving average PM<sub>2.5</sub> exposures</p><p><sup>a</sup>Warm-season average of daily ozone concentrations</p></table-wrap-foot></table-wrap></p>
+    </sec>
+    <sec id="Sec7" sec-type="discussion">
+      <title>Discussion</title>
+      <p id="Par23">In our cohort of over 22 million Medicare beneficiaries, we found consistent associations between long-term O<sub>3</sub> exposures and increased mortality. Specifically, we found a 0.4%, 3.0%, 0.5%, and 1.5% increased risk in all-cause, respiratory, cardiovascular and for the first-time, lung cancer mortality, respectively, per 10&#x2009;ppb increase in warm-season average, 1-h maximum O<sub>3</sub> exposure in PM<sub>2.5</sub>-adjusted models.</p>
+      <p id="Par24">Notably, we found increased mortality risks from long-term O<sub>3</sub> exposures to be the strongest and most consistent for respiratory-related diseases (including all respiratory and COPD), CHF, and lung cancer mortality, with no evidence of confounding by PM<sub>2.5</sub>, NO<sub>2</sub>, or temperature or of sensitivity to the exposure measure. O<sub>3</sub>-associated RRs for respiratory-related mortality, for example, were not attenuated in models controlling for PM<sub>2.5</sub> or NO<sub>2</sub> and further were comparable for beneficiaries living in urban and non-urban areas, for which the composition of PM<sub>2.5</sub> differs substantially [<xref ref-type="bibr" rid="CR12">12</xref>, <xref ref-type="bibr" rid="CR13">13</xref>]. In contrast, associations between long-term O<sub>3</sub> exposures and CVD-related mortality were less consistent, confounded by PM<sub>2.5</sub> as evidenced by their attenuation in two-pollutant models and their stronger effects in non-urban as compared to urban environments. Further, we found O<sub>3</sub>-associated risks to vary with the exposure measure, with associations no longer significantly positive when warm-season 8-h maximum or 24-h average O<sub>3</sub> was used to assess exposures, suggesting that long-term peak rather than average exposures reduce life expectancy. Altogether, these findings provide strong evidence that long-term peak O<sub>3</sub> exposure is associated with mortality from respiratory-related causes and for the first-time lung cancer, but raise questions regarding O<sub>3</sub>-related impacts on CVD mortality.</p>
+      <p id="Par25">Our findings were robust to further adjustment by ecological and behavioral covariates for all causes of death. They, however, likely remain affected by some unmeasured confounding, as suggested by the unequal coefficients for temporal and spatio-temporal O<sub>3</sub>. Our finding of unmeasured confounding, even after adjustment for PM<sub>2.5</sub> and behavioral covariates, is not surprising given our reliance on administrative mortality data, which precludes us from controlling for covariates describing individual-specific SES, behaviors, and health histories, as was done in the CanCHEC study [<xref ref-type="bibr" rid="CR3">3</xref>]. Despite this, findings from our study are consistent with previous studies of ozone and mortality, many of which did adjust for numerous individual-specific covariates. Of these studies, only Jerrett et al. [<xref ref-type="bibr" rid="CR1">1</xref>] assessed O<sub>3</sub> exposures for 448,850 ACS CPS-II (Cancer Prevention Study II) study participants as warm-season averages of daily 1-h maximum ozone concentrations, finding significant, positive associations for cardiovascular (1.011, 95% CI: 1.003, 1.023), IHD (1.015, 95% CI: 1.003, 1.026), respiratory (1.029, 95% CI: 1.010, 1.048) and cardiopulmonary (1.014, 95% CI: 1.007, 1.022) mortality as in our study, but not for all-cause mortality (1.001, 95% CI: 1.996, 1.007), in contrast to our study. Further, associations in the CPS-II cohort remained significant after adjustment for PM<sub>2.5</sub> for mortality from respiratory but not from cardiovascular-related causes, which like our study suggests confounding by PM<sub>2.5</sub> of O<sub>3</sub>-mortality associations for cardiovascular-related causes [<xref ref-type="bibr" rid="CR1">1</xref>].</p>
+      <p id="Par26">In a follow-up to the CPS-II study [<xref ref-type="bibr" rid="CR2">2</xref>], the impact of long-term O<sub>3</sub> exposures on cause-specific mortality was re-examined using new estimates of ambient O<sub>3</sub>, PM<sub>2.5</sub>, and NO<sub>2</sub> concentrations, a larger number of participants, and an extended follow-up period. The new O<sub>3</sub> exposure estimates were based on individual-specific measures of yearly and summer-only 8-h maximum O<sub>3</sub> averaged between 2002&#x2013;2004 concentrations, thus capturing spatial but not temporal variability in O<sub>3</sub> exposures. As in the original CPS-II and in our study, the follow-up study found summer 8-h daily maximum O<sub>3</sub> exposures to be significantly and positively associated with all-cause (1.02, 95% CI: 1.02, 1.03), respiratory (1.10, 95% CI: 1.07, 1.12), and COPD (1.08, 95% CI: 1.05, 1.12) mortality and consistent with the original CPS-II but not our study, reported null associations with lung cancer mortality. Null associations with lung cancer in the CPS-II studies may be attributed to the relatively small number of lung cancer deaths in CPS-II, even after extended follow-up, with a total of 16,432 as compared to over 350,000 lung cancer deaths in our study. Notably the extended CPS-II study also reported new, significant increased risks of CVD (1.02, 95% CI: 1.01, 1.04) and CBV (1.03, 95% CI: 1.01, 1.06) mortality, associated with summer average 8-h maximum O<sub>3</sub>, even after adjustment for PM<sub>2.5</sub>. It is possible, however, that their observed increased risks for CVD and CBV reflect incomplete control for confounding by PM<sub>2.5</sub>, given (1) their time invariant exposure assessment method, with both O<sub>3</sub> and PM<sub>2.5</sub> exposures estimated as the average value over multiple years, with the number of years differing substantially for the two pollutants, and (2) evidence of confounding of associations between O<sub>3</sub> and CVD mortality by PM<sub>2.5</sub> in our study and in the original CPS-II.</p>
+      <p id="Par27">For mortality from all causes, CVD, IHD, CBV, pneumonia, and all cancers, our non-positive findings for warm-season averages of 24-h O<sub>3</sub> in PM<sub>2.5</sub>-adjusted models are consistent with those from Lipsett et al. [<xref ref-type="bibr" rid="CR4">4</xref>] in the California Teachers study, which reported null associations between summer averaged 24-h O<sub>3</sub> and all-cause, cardiovascular, non-malignant respiratory, and CBV mortality, and significant associations with increased mortality for IHD in single, but not 2-pollutant models that included PM<sub>2.5</sub>. While Lipsett et al. found null associations between 24-h O<sub>3</sub> and lung cancer, we found these associations to be significant and positive. The insignificant associations for lung cancer and other causes of death reported by Lipsett et al. [<xref ref-type="bibr" rid="CR4">4</xref>] have been attributed to its relatively small sample size of approximately 125,000 women. Our results suggest that its use of warm-season averages of 24-h O<sub>3</sub> as the exposure measure may also contribute to the observed null findings.</p>
+      <p id="Par28">More puzzling are results from Crouse et al. [<xref ref-type="bibr" rid="CR3">3</xref>], who used data from the CanCHEC to examine the association between warm-season averages of 8-h maximum O<sub>3</sub> and a number of causes of death. The authors reported significant increased O<sub>3</sub>-associated risks of all-cause mortality (1.031, 95% CI: 1.026, 1.036), and null association for CBV (0.981, 95% CI: 0.961, 1.001) as in our study, but null associations with lung cancer (1.006, 95% CI: 0.990, 1.023) mortality and significant positive associations with mortality from CVD (1.037, 95% CI: 1.028, 1.047), and diabetes (1.156, 95% CI: 1.121, 1.190), even after adjustment for PM<sub>2.5</sub> and NO<sub>2</sub>. The O<sub>3</sub>-associated risks of increased CVD mortality&#x2014;together with observed null associations between PM<sub>2.5</sub> and CVD mortality&#x2014;caused the authors to hypothesize that the multi-pollutant results were affected by collinearity among the multiple pollutants and/or overlapping spatial patterns in O<sub>3</sub> and PM<sub>2.5</sub>.</p>
+      <p id="Par29">Support for this hypothesis is provided by our findings of effect modification of the O<sub>3</sub>-mortality relationship by region for each cause of death. One possible explanation for this region-specific variability in O<sub>3</sub>-mortality risks may be corresponding regional variability in the correlation between O<sub>3</sub> and PM<sub>2.5</sub>, which may result in differential confounding by PM<sub>2.5</sub> of regional O<sub>3</sub> effects on mortality. Other factors that may contribute to observed heterogeneity in O<sub>3</sub>-mortality associations may also include regional differences in (1) PM<sub>2.5</sub> composition, which may differentially confound O<sub>3</sub>-mortality associations, (2) air conditioning prevalence, which may contribute to differential exposure error, and (3) unmeasured confounders that were not captured by our control for strata for age, race, gender, and our adjustment for state of residence, PM<sub>2.5</sub>, census, and behavioral variables. Note that certain causes of death, such as pneumonia or CBV, may be more sensitive to the region-specific effects of confounding, due to their small number of deaths.</p>
+      <p id="Par30">Importantly, our positive and consistent associations linking long-term peak O<sub>3</sub> exposures to cardio-respiratory mortality are biologically plausible. Numerous studies have demonstrated the negative permanent effects of long-term exposure to O<sub>3</sub> on pulmonary function and increased lung inflammation [<xref ref-type="bibr" rid="CR14">14</xref>&#x2013;<xref ref-type="bibr" rid="CR22">22</xref>], which may lead to tissue injury [<xref ref-type="bibr" rid="CR14">14</xref>], airway remodeling [<xref ref-type="bibr" rid="CR15">15</xref>, <xref ref-type="bibr" rid="CR16">16</xref>], and pulmonary fibrotic changes [<xref ref-type="bibr" rid="CR17">17</xref>]. Further, exposed animals were shown to exhibit similar or greater morphological and other changes after episodic as compared to continuous O<sub>3</sub> exposures [<xref ref-type="bibr" rid="CR18">18</xref>], lending support for our findings showing that warm-season averages of 1-h daily maximum O<sub>3</sub> were more relevant to mortality as compared to 8-h daily maximum and 24-h average O<sub>3</sub> exposures.</p>
+      <p id="Par31">Our study has several limitations. First, we did not have information on beneficiaries&#x2019; activity and mobility patterns, which may contribute to exposure misclassification. Further, we used ambient, nearest monitor O<sub>3</sub> concentrations to assess exposures, which are imperfect proxies of personal O<sub>3</sub> exposures. This exposure error has been shown to bias RR estimates towards the null [<xref ref-type="bibr" rid="CR23">23</xref>], possibly suggesting that the magnitudes of our associations are underestimated. We, however, minimized other sources of exposure error by (1) linking O<sub>3</sub> exposure to beneficiary information by year in order to account for residential moves and ZIP code boundary changes and (2) using exposure values that were geographically close to residences, capturing exposures that result from nearby O<sub>3</sub> emission sources, and thus reducing the potential for exposure misclassification. Second, although we did not have data on personal-level characteristics, we adjusted for county-level behavioral variables, including those related to smoking and comorbidities, with results essentially unchanged, consistent with little, if any, confounding of O<sub>3</sub>-mortality associations by the examined covariates. While our findings showed that adjusting for PM<sub>2.5</sub> and behavioral covariates reduces unmeasured confounding, note that differences in the coefficients for temporal and spatio-temporal O<sub>3</sub> remained, suggesting unmeasured confounding of the O<sub>3</sub>-mortality associations. These findings demonstrate the need for additional studies to examine the impact of unmeasured confounding on estimated risks posed by long-term O<sub>3</sub> on mortality. Lastly, our findings may not be generalizable to younger age groups or to beneficiaries living away from monitors.</p>
+      <p id="Par32">These limitations are balanced by the substantial strengths of our study and long time period of study. With more than 22 million Medicare beneficiaries with near 5.8 million deaths over the 9 years of study period, our study is well powered to detect meaningful associations for mortality from specific causes, allowing us to provide valuable, new information on the relationship between O<sub>3</sub> exposures and specific CVD, respiratory and cancer-related deaths in addition to all-cause mortality.</p>
+    </sec>
+    <sec sec-type="supplementary-material">
+      <title>Supplementary information</title>
+      <sec id="Sec8">
+        <p>
+<supplementary-material content-type="local-data" id="MOESM1"><media xlink:href="41370_2019_135_MOESM1_ESM.docx"><caption><p>Supplementary Material 1</p></caption></media></supplementary-material>
+<supplementary-material content-type="local-data" id="MOESM2"><media xlink:href="41370_2019_135_MOESM2_ESM.docx"><caption><p>Supplementary Material 2</p></caption></media></supplementary-material>
+<supplementary-material content-type="local-data" id="MOESM3"><media xlink:href="41370_2019_135_MOESM3_ESM.docx"><caption><p>Supplementary Figure S1</p></caption></media></supplementary-material>
+<supplementary-material content-type="local-data" id="MOESM4"><media xlink:href="41370_2019_135_MOESM4_ESM.docx"><caption><p>Supplementary Figure S2</p></caption></media></supplementary-material>
+<supplementary-material content-type="local-data" id="MOESM5"><media xlink:href="41370_2019_135_MOESM5_ESM.docx"><caption><p>Supplementary Information</p></caption></media></supplementary-material>
+<supplementary-material content-type="local-data" id="MOESM6"><media xlink:href="41370_2019_135_MOESM6_ESM.docx"><caption><p>Supplementary Table S1</p></caption></media></supplementary-material>
+<supplementary-material content-type="local-data" id="MOESM7"><media xlink:href="41370_2019_135_MOESM7_ESM.docx"><caption><p>Supplementary Table S2</p></caption></media></supplementary-material>
+<supplementary-material content-type="local-data" id="MOESM8"><media xlink:href="41370_2019_135_MOESM8_ESM.docx"><caption><p>Supplementary Table S3</p></caption></media></supplementary-material>
+<supplementary-material content-type="local-data" id="MOESM9"><media xlink:href="41370_2019_135_MOESM9_ESM.docx"><caption><p>Supplementary Table S4</p></caption></media></supplementary-material>
+<supplementary-material content-type="local-data" id="MOESM10"><media xlink:href="41370_2019_135_MOESM10_ESM.docx"><caption><p>Supplementary Table S5</p></caption></media></supplementary-material>
+<supplementary-material content-type="local-data" id="MOESM11"><media xlink:href="41370_2019_135_MOESM11_ESM.docx"><caption><p>Supplementary Table S6</p></caption></media></supplementary-material>
+<supplementary-material content-type="local-data" id="MOESM12"><media xlink:href="41370_2019_135_MOESM12_ESM.docx"><caption><p>Supplementary Table S7</p></caption></media></supplementary-material>
+<supplementary-material content-type="local-data" id="MOESM13"><media xlink:href="41370_2019_135_MOESM13_ESM.docx"><caption><p>Supplementary Table S8</p></caption></media></supplementary-material>
+</p>
+      </sec>
+    </sec>
+  </body>
+  <back>
+    <fn-group>
+      <fn>
+        <p><bold>Publisher&#x2019;s note:</bold> Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+      </fn>
+    </fn-group>
+    <sec>
+      <title>Supplementary information</title>
+      <p>The online version of this article (10.1038/s41370-019-0135-4) contains supplementary material, which is available to authorized users.</p>
+    </sec>
+    <ack>
+      <title>Acknowledgements</title>
+      <p>This work was supported by Electric Power Research Institute grant 00&#x2013;10003095. The data that support the findings of this study are available from the US Environmental Protection Agency (EPA) Air Quality System, the Centers for Medicare and Medicaid Services, US Census Bureau and Behavioral Risk Factor Surveillance System. We acknowledge Dr. Jeffrey Yanosky of Pennsylvania State University (State College, Pennsylvania) for providing daily PM<sub>2.5</sub> grid data.</p>
+    </ack>
+    <notes notes-type="data-availability">
+      <title>Code availability</title>
+      <p>All analyses were performed using SAS 9.4 Software (SAS Institute Inc., Cary, North Carolina). SAS code used to generate the results is provided as supplementary information (Supplementary Appendix 2, SI).</p>
+    </notes>
+    <notes notes-type="ethics">
+      <title>Compliance with ethical standards</title>
+      <notes id="FPar1" notes-type="COI-statement">
+        <title>Conflict of interest</title>
+        <p id="Par33">The authors declare that they have no conflict of interest.</p>
+      </notes>
+    </notes>
+    <ref-list id="Bib1">
+      <title>References</title>
+      <ref id="CR1">
+        <label>1.</label>
+        <mixed-citation publication-type="other">Jerrett M, Burnett RT, Pope CA, III, Ito K, Thurston G, Krewski D, et al. Long-term ozone exposure and mortality. N Engl J Med. 2009;360:1085&#x2013;95.</mixed-citation>
+      </ref>
+      <ref id="CR2">
+        <label>2.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Turner</surname>
+              <given-names>MC</given-names>
+            </name>
+            <name>
+              <surname>Jerrett</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Pope</surname>
+              <given-names>CA</given-names>
+              <suffix>III</suffix>
+            </name>
+            <name>
+              <surname>Krewski</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Gapstur</surname>
+              <given-names>SM</given-names>
+            </name>
+            <name>
+              <surname>Diver</surname>
+              <given-names>WR</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Long-term ozone exposure and mortality in a large prospective study</article-title>
+          <source>Am J Respir Crit Care Med</source>
+          <year>2016</year>
+          <volume>193</volume>
+          <fpage>1134</fpage>
+          <lpage>42</lpage>
+          <pub-id pub-id-type="doi">10.1164/rccm.201508-1633OC</pub-id>
+          <pub-id pub-id-type="pmid">26680605</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR3">
+        <label>3.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Crouse</surname>
+              <given-names>DL</given-names>
+            </name>
+            <name>
+              <surname>Peters</surname>
+              <given-names>PA</given-names>
+            </name>
+            <name>
+              <surname>Hystad</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Brook</surname>
+              <given-names>JR</given-names>
+            </name>
+            <name>
+              <surname>Donkelaar</surname>
+              <given-names>AV</given-names>
+            </name>
+            <name>
+              <surname>Martin</surname>
+              <given-names>RV</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Ambient PM<sub>2.5</sub>, O<sub>3</sub>, and NO<sub>2</sub> exposures and associations with mortality over 16 years of follow-up in the Canadian Census Health and Environment Cohort (CanCHEC)</article-title>
+          <source>Environ Health Perspect</source>
+          <year>2015</year>
+          <volume>123</volume>
+          <fpage>1180</fpage>
+          <lpage>6</lpage>
+          <pub-id pub-id-type="doi">10.1289/ehp.1409276</pub-id>
+          <pub-id pub-id-type="pmid">26528712</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR4">
+        <label>4.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lipsett</surname>
+              <given-names>MJ</given-names>
+            </name>
+            <name>
+              <surname>Ostro</surname>
+              <given-names>BD</given-names>
+            </name>
+            <name>
+              <surname>Reynolds</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Goldberg</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Hertz</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Jerrett</surname>
+              <given-names>M</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Long-term exposure to air pollution and cardiorespiratory disease in the California teachers study cohort</article-title>
+          <source>Am J Respir Crit Care Med</source>
+          <year>2011</year>
+          <volume>184</volume>
+          <fpage>828</fpage>
+          <lpage>35</lpage>
+          <pub-id pub-id-type="doi">10.1164/rccm.201012-2082OC</pub-id>
+          <pub-id pub-id-type="pmid">21700913</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR5">
+        <label>5.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Greven</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Dominici</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Zeger</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <article-title>An approach to the estimation of chronic air pollution effects using spatio-temporal information</article-title>
+          <source>J Am Stat Assoc</source>
+          <year>2011</year>
+          <volume>106</volume>
+          <fpage>396</fpage>
+          <lpage>406</lpage>
+          <pub-id pub-id-type="doi">10.1198/jasa.2011.ap09392</pub-id>
+          <pub-id pub-id-type="pmid">28751799</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR6">
+        <label>6.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pun</surname>
+              <given-names>VC</given-names>
+            </name>
+            <name>
+              <surname>Kazemiparkouhi</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Manjourides</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Suh</surname>
+              <given-names>HH</given-names>
+            </name>
+          </person-group>
+          <article-title>Long-term PM2.5 exposure and respiratory, cancer, and cardiovascular mortality in older US adults</article-title>
+          <source>Am J Epidemiol</source>
+          <year>2017</year>
+          <volume>186</volume>
+          <fpage>961</fpage>
+          <lpage>9</lpage>
+          <pub-id pub-id-type="doi">10.1093/aje/kwx166</pub-id>
+          <pub-id pub-id-type="pmid">28541385</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR7">
+        <label>7.</label>
+        <mixed-citation publication-type="other">Eum K, Kazemiparkouhi F, Wang B, Manjourides J, Pun VC, Pavlu V, et al. Long-term NO<sub>2</sub> exposures and cause-specific mortality in american older adults. Environ Int. 2019;124:10&#x2013;5.</mixed-citation>
+      </ref>
+      <ref id="CR8">
+        <label>8.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yanosky</surname>
+              <given-names>JD</given-names>
+            </name>
+            <name>
+              <surname>Paciorek</surname>
+              <given-names>CJ</given-names>
+            </name>
+            <name>
+              <surname>Laden</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Hart</surname>
+              <given-names>JE</given-names>
+            </name>
+            <name>
+              <surname>Puett</surname>
+              <given-names>RC</given-names>
+            </name>
+            <name>
+              <surname>Liao</surname>
+              <given-names>D</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Spatio-temporal modeling of particulate air pollution in the conterminous United States using geographic and meteorological predictors</article-title>
+          <source>Environ Health</source>
+          <year>2014</year>
+          <volume>13</volume>
+          <fpage>63</fpage>
+          <pub-id pub-id-type="doi">10.1186/1476-069X-13-63</pub-id>
+          <pub-id pub-id-type="pmid">25097007</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR9">
+        <label>9.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bechle</surname>
+              <given-names>MJ</given-names>
+            </name>
+            <name>
+              <surname>Millet</surname>
+              <given-names>DB</given-names>
+            </name>
+            <name>
+              <surname>Marshall</surname>
+              <given-names>JD</given-names>
+            </name>
+          </person-group>
+          <article-title>National spatiotemporal exposure surface for NO<sub>2</sub>: Monthly scaling of a satellite-derived land-use regression, 2000&#x2013;2010</article-title>
+          <source>Environ Sci Technol</source>
+          <year>2015</year>
+          <volume>49</volume>
+          <fpage>12297</fpage>
+          <lpage>305</lpage>
+          <pub-id pub-id-type="doi">10.1021/acs.est.5b02882</pub-id>
+          <pub-id pub-id-type="pmid">26397123</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR10">
+        <label>10.</label>
+        <mixed-citation publication-type="other">United States Census Bureau. 2000 Census. U.S. Census Bureau. 2000. <ext-link ext-link-type="uri" xlink:href="https://www.census.gov/main/www/cen2000.html">https://www.census.gov/main/www/cen2000.html</ext-link>. Accessed 26 Feb 2016.</mixed-citation>
+      </ref>
+      <ref id="CR11">
+        <label>11.</label>
+        <mixed-citation publication-type="other">Behavioral Risk Factor Surveillance System (BRFSS). SMART (the Selected Metropolitan/Micropolitan Area Risk Trends): BRFSS City and County Data and Documentation. 2014. <ext-link ext-link-type="uri" xlink:href="https://www.census.gov/main/www/cen2000.html">https://www.census.gov/main/www/cen2000.html</ext-link>. Accessed 16 Oct 2015.</mixed-citation>
+      </ref>
+      <ref id="CR12">
+        <label>12.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zheng</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Cass</surname>
+              <given-names>GR</given-names>
+            </name>
+            <name>
+              <surname>Schauer</surname>
+              <given-names>JJ</given-names>
+            </name>
+            <name>
+              <surname>Edgerton</surname>
+              <given-names>ES</given-names>
+            </name>
+          </person-group>
+          <article-title>Source apportionment of PM<sub>2.5</sub> in the southeastern United States using solvent-extractable organic compounds as tracers</article-title>
+          <source>Environ Sci Technol</source>
+          <year>2002</year>
+          <volume>36</volume>
+          <fpage>2361</fpage>
+          <lpage>71</lpage>
+          <pub-id pub-id-type="doi">10.1021/es011275x</pub-id>
+          <pub-id pub-id-type="pmid">12075791</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR13">
+        <label>13.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Turpin</surname>
+              <given-names>BJ</given-names>
+            </name>
+            <name>
+              <surname>Lim</surname>
+              <given-names>H</given-names>
+            </name>
+          </person-group>
+          <article-title>Species contributions to PM<sub>2.5</sub> mass concentrations: Revisiting common assumptions for estimating organic mass</article-title>
+          <source>Aerosol Science &amp; Technology</source>
+          <year>2001</year>
+          <volume>35</volume>
+          <fpage>602</fpage>
+          <lpage>10</lpage>
+          <pub-id pub-id-type="doi">10.1080/02786820119445</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR14">
+        <label>14.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Balmes</surname>
+              <given-names>JR</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>LL</given-names>
+            </name>
+            <name>
+              <surname>Scannell</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Tager</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>Christian</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Hearne</surname>
+              <given-names>PQ</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Ozone-induced decrements in FEV1 and FVC do not correlate with measures of inflammation</article-title>
+          <source>Am J Respir Crit Care Med</source>
+          <year>1996</year>
+          <volume>153</volume>
+          <fpage>904</fpage>
+          <lpage>9</lpage>
+          <pub-id pub-id-type="doi">10.1164/ajrccm.153.3.8630571</pub-id>
+          <pub-id pub-id-type="pmid">8630571</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR15">
+        <label>15.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Harkema</surname>
+              <given-names>JR</given-names>
+            </name>
+            <name>
+              <surname>Hotchkiss</surname>
+              <given-names>JA</given-names>
+            </name>
+            <name>
+              <surname>Barr</surname>
+              <given-names>EB</given-names>
+            </name>
+            <name>
+              <surname>Bennett</surname>
+              <given-names>CB</given-names>
+            </name>
+            <name>
+              <surname>Gallup</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>JK</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Long-lasting effects of chronic ozone exposure on rat nasal epithelium</article-title>
+          <source>Am J Respir Cell Mol Biol</source>
+          <year>1999</year>
+          <volume>20</volume>
+          <fpage>517</fpage>
+          <lpage>29</lpage>
+          <pub-id pub-id-type="doi">10.1165/ajrcmb.20.3.3227</pub-id>
+          <pub-id pub-id-type="pmid">10030851</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR16">
+        <label>16.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hotchkiss</surname>
+              <given-names>JA</given-names>
+            </name>
+            <name>
+              <surname>Harkema</surname>
+              <given-names>JR</given-names>
+            </name>
+            <name>
+              <surname>Henderson</surname>
+              <given-names>RF</given-names>
+            </name>
+          </person-group>
+          <article-title>Effect of cumulative ozone exposure on ozone-induced nasal epithelial hyperplasia and secretory metaplasia in rats</article-title>
+          <source>Exp Lung Res</source>
+          <year>1991</year>
+          <volume>15</volume>
+          <fpage>589</fpage>
+          <lpage>600</lpage>
+          <pub-id pub-id-type="doi">10.3109/01902149109062867</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR17">
+        <label>17.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mudway</surname>
+              <given-names>IS</given-names>
+            </name>
+            <name>
+              <surname>Kelly</surname>
+              <given-names>FJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Ozone and the lung: a sensitive issue</article-title>
+          <source>Mol Aspects Med</source>
+          <year>2000</year>
+          <volume>21</volume>
+          <fpage>1</fpage>
+          <lpage>48</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0098-2997(00)00003-0</pub-id>
+          <pub-id pub-id-type="pmid">10804262</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR18">
+        <label>18.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tyler</surname>
+              <given-names>WS</given-names>
+            </name>
+            <name>
+              <surname>Tyler</surname>
+              <given-names>NK</given-names>
+            </name>
+            <name>
+              <surname>Last</surname>
+              <given-names>JA</given-names>
+            </name>
+            <name>
+              <surname>Gillespie</surname>
+              <given-names>MJ</given-names>
+            </name>
+            <name>
+              <surname>Barstow</surname>
+              <given-names>TJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Comparison of daily and seasonal exposures of young monkeys to ozone</article-title>
+          <source>Toxicology</source>
+          <year>1988</year>
+          <volume>50</volume>
+          <fpage>131</fpage>
+          <lpage>44</lpage>
+          <pub-id pub-id-type="doi">10.1016/0300-483X(88)90086-8</pub-id>
+          <pub-id pub-id-type="pmid">3388434</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR19">
+        <label>19.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Paige</surname>
+              <given-names>RC</given-names>
+            </name>
+            <name>
+              <surname>Wong</surname>
+              <given-names>V</given-names>
+            </name>
+            <name>
+              <surname>Plopper</surname>
+              <given-names>CG</given-names>
+            </name>
+          </person-group>
+          <article-title>Long-term exposure to ozone increases acute pulmonary centriacinar injury by 1-nitronaphthalene: II. Quantitative histopathology</article-title>
+          <source>J Pharmacol Exp Ther</source>
+          <year>2000</year>
+          <volume>295</volume>
+          <fpage>942</fpage>
+          <lpage>50</lpage>
+          <pub-id pub-id-type="pmid">11082427</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR20">
+        <label>20.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kleeberger</surname>
+              <given-names>SR</given-names>
+            </name>
+            <name>
+              <surname>Ohtsuka</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Ahang</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Longphre</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <article-title>Airway responses to chronic ozone exposure are partially mediated through mast cells</article-title>
+          <source>J Appl Physiol</source>
+          <year>2001</year>
+          <volume>90</volume>
+          <fpage>713</fpage>
+          <lpage>23</lpage>
+          <pub-id pub-id-type="doi">10.1152/jappl.2001.90.2.713</pub-id>
+          <pub-id pub-id-type="pmid">11160073</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR21">
+        <label>21.</label>
+        <mixed-citation publication-type="other">Catalano PJ, Chang L, Harkema JR, Kaden DA, Last JA, Mellick PW, et al. Consequences of prolonged inhalation of ozone on F344/N rats: Collaborative studies Part XI: Integrative summary. Res Rep Health Eff Inst. 1995;(65 Pt 11):1&#x2013;85.</mixed-citation>
+      </ref>
+      <ref id="CR22">
+        <label>22.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pinkerton</surname>
+              <given-names>KE</given-names>
+            </name>
+            <name>
+              <surname>Weller</surname>
+              <given-names>BL</given-names>
+            </name>
+            <name>
+              <surname>M&#xE9;nache</surname>
+              <given-names>MG</given-names>
+            </name>
+            <name>
+              <surname>Plopper</surname>
+              <given-names>CG</given-names>
+            </name>
+          </person-group>
+          <article-title>Consequences of prolonged inhalation of ozone on F344/N rats: collaborative studies. Part XIII. A comparison of changes in the tracheobronchial epithelium and pulmonary acinus in male rats at 3 and 20 months</article-title>
+          <source>Res Rep Health Eff Inst</source>
+          <year>1998</year>
+          <volume>65</volume>
+          <fpage>1</fpage>
+          <lpage>37</lpage>
+        </element-citation>
+      </ref>
+      <ref id="CR23">
+        <label>23.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Delfino</surname>
+              <given-names>RJ</given-names>
+            </name>
+            <name>
+              <surname>Coate</surname>
+              <given-names>BD</given-names>
+            </name>
+            <name>
+              <surname>Zeiger</surname>
+              <given-names>RS</given-names>
+            </name>
+            <name>
+              <surname>Seltzer</surname>
+              <given-names>JM</given-names>
+            </name>
+            <name>
+              <surname>Street</surname>
+              <given-names>DH</given-names>
+            </name>
+            <name>
+              <surname>Koutrakis</surname>
+              <given-names>P</given-names>
+            </name>
+          </person-group>
+          <article-title>Daily asthma severity in relation to personal ozone exposures and outdoor fungal spores</article-title>
+          <source>Am J Respir Crit Care Med</source>
+          <year>1996</year>
+          <volume>154</volume>
+          <fpage>633</fpage>
+          <lpage>41</lpage>
+          <pub-id pub-id-type="doi">10.1164/ajrccm.154.3.8810598</pub-id>
+          <pub-id pub-id-type="pmid">8810598</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>

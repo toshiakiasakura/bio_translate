@@ -1,0 +1,201 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article">
+  <!--The publisher of this article does not allow downloading of the full text in XML form.-->
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Am J Respir Crit Care Med</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Am. J. Respir. Crit. Care Med</journal-id>
+      <journal-id journal-id-type="publisher-id">ajrccm</journal-id>
+      <journal-title-group>
+        <journal-title>American Journal of Respiratory and Critical Care Medicine</journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1073-449X</issn>
+      <issn pub-type="epub">1535-4970</issn>
+      <publisher>
+        <publisher-name>American Thoracic Society</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">31051079</article-id>
+      <article-id pub-id-type="pmc">6794108</article-id>
+      <article-id pub-id-type="publisher-manuscript">201806-1161OC</article-id>
+      <article-id pub-id-type="doi">10.1164/rccm.201806-1161OC</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Original Articles</subject>
+          <subj-group>
+            <subject>Environmental and Occupational Lung Disease</subject>
+          </subj-group>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Long-Term Exposure to Ozone and Cause-Specific Mortality Risk in the United States</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author" corresp="yes">
+          <name>
+            <surname>Lim</surname>
+            <given-names>Chris C.</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+            <sup>1</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Hayes</surname>
+            <given-names>Richard B.</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+            <sup>1</sup>
+          </xref>
+          <xref ref-type="aff" rid="aff2">
+            <sup>2</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Ahn</surname>
+            <given-names>Jiyoung</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+            <sup>1</sup>
+          </xref>
+          <xref ref-type="aff" rid="aff2">
+            <sup>2</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Shao</surname>
+            <given-names>Yongzhao</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+            <sup>1</sup>
+          </xref>
+          <xref ref-type="aff" rid="aff2">
+            <sup>2</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Silverman</surname>
+            <given-names>Debra T.</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff3">
+            <sup>3</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Jones</surname>
+            <given-names>Rena R.</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff3">
+            <sup>3</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Garcia</surname>
+            <given-names>Cynthia</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff4">
+            <sup>4</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Bell</surname>
+            <given-names>Michelle L.</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff5">
+            <sup>5</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Thurston</surname>
+            <given-names>George D.</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+            <sup>1</sup>
+          </xref>
+          <xref ref-type="aff" rid="aff2">
+            <sup>2</sup>
+          </xref>
+        </contrib>
+        <aff id="aff1"><label><sup>1</sup></label>Department of Environmental Medicine and</aff>
+        <aff id="aff2"><label><sup>2</sup></label>Department of Population Health, New York University School of Medicine, New York, New York</aff>
+        <aff id="aff3"><label><sup>3</sup></label>Division of Cancer Epidemiology &amp; Genetics, National Cancer Institute, National Institutes of Health, Rockville, Maryland</aff>
+        <aff id="aff4"><label><sup>4</sup></label>California Air Resources Board, Sacramento, California; and</aff>
+        <aff id="aff5"><label><sup>5</sup></label>School of Forestry and Environmental Studies, Yale University, New Haven, Connecticut</aff>
+      </contrib-group>
+      <author-notes>
+        <corresp>Correspondence and requests for reprints should be addressed to Chris C. Lim, Ph.D., Department of Environmental Medicine, NYU School of Medicine, 341 East 25th Street, New York, NY 10010. E-mail: <email xlink:href="ccl414@nyu.edu">ccl414@nyu.edu</email>.</corresp>
+      </author-notes>
+      <pub-date pub-type="epub-ppub">
+        <day>15</day>
+        <month>10</month>
+        <year>2019</year>
+        <!--string-date: October 15, 2019-->
+      </pub-date>
+      <!--Fake epub and ppub dates generated by PMC from publisher
+							pub-date/@pub-type='epub-ppub' -->
+      <pub-date pub-type="epub">
+        <day>15</day>
+        <month>10</month>
+        <year>2019</year>
+        <!--string-date: October 15, 2019-->
+      </pub-date>
+      <pub-date pub-type="ppub">
+        <day>15</day>
+        <month>10</month>
+        <year>2019</year>
+        <!--string-date: October 15, 2019-->
+      </pub-date>
+      <volume>200</volume>
+      <issue>8</issue>
+      <fpage>1022</fpage>
+      <lpage>1031</lpage>
+      <history>
+        <date date-type="received">
+          <day>25</day>
+          <month>6</month>
+          <year>2018</year>
+        </date>
+        <date date-type="accepted">
+          <day>03</day>
+          <month>5</month>
+          <year>2019</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Copyright &#xA9; 2019 by the American Thoracic Society</copyright-statement>
+        <copyright-year>2019</copyright-year>
+      </permissions>
+      <self-uri content-type="pdf" xlink:href="rccm.201806-1161OC.pdf"/>
+      <related-article related-article-type="companion" id="d38e245" ext-link-type="doi" xlink:href="10.1164/rccm.201906-1105ED"/>
+      <abstract>
+        <p><bold>Rationale:</bold> Many studies have linked short-term exposure to ozone (O<sub>3</sub>) with morbidity and mortality, but epidemiologic evidence of associations between long-term O<sub>3</sub> exposure and mortality is more limited.</p>
+        <p><bold>Objectives:</bold> To investigate associations of long-term (annual or warm season average of daily 8-h maximum concentrations) O<sub>3</sub> exposure with all-cause and cause-specific mortality in the NIH-AARP Diet and Health Study, a large prospective cohort of U.S. adults with 17 years of follow-up from 1995 to 2011.</p>
+        <p><bold>Methods:</bold> The cohort (<italic>n</italic>&#x2009;=&#x2009;548,780) was linked to census tract&#x2013;level estimates for O<sub>3</sub>. Associations between long-term O<sub>3</sub> exposure (averaged values from 2002 to 2010) and multiple causes of death were evaluated using multivariate Cox proportional hazards models, adjusted for individual- and census tract&#x2013;level covariates, and potentially confounding copollutants and temperature.</p>
+        <p><bold>Measurements and Main Results:</bold> Long-term annual average exposure to O<sub>3</sub> was significantly associated with deaths caused by cardiovascular disease (per 10 ppb; hazard ratio [HR], 1.03; 95% confidence interval [CI], 1.01&#x2013;1.06), ischemic heart disease (HR, 1.06; 95% CI, 1.02&#x2013;1.09), respiratory disease (HR, 1.04; 95% CI, 1.00&#x2013;1.09), and chronic obstructive pulmonary disease (HR, 1.09; 95% CI, 1.03&#x2013;1.15) in single-pollutant models. The results were robust to alternative models and adjustment for copollutants (fine particulate matter and nitrogen dioxide), although some evidence of confounding by temperature was observed. Significantly elevated respiratory disease mortality risk associated with long-term O<sub>3</sub> exposure was found among those living in locations with high temperature (<italic>P</italic><sub>interaction</sub>&#x2009;&lt;&#x2009;0.05).</p>
+        <p><bold>Conclusions:</bold> This study found that long-term exposure to O<sub>3</sub> is associated with increased risk for multiple causes of mortality, suggesting that establishment of annual and/or seasonal federal O<sub>3</sub> standards is needed to more adequately protect public health from ambient O<sub>3</sub> exposures.</p>
+      </abstract>
+      <kwd-group>
+        <title>Keywords</title>
+        <kwd>ozone</kwd>
+        <kwd>air pollution</kwd>
+        <kwd>mortality</kwd>
+      </kwd-group>
+      <counts>
+        <fig-count count="2"/>
+        <table-count count="3"/>
+        <page-count count="10"/>
+      </counts>
+    </article-meta>
+  </front>
+</article>
+</pmc-articleset>

@@ -1,0 +1,4 @@
+Journals_not_in_PMC, ex_doi,
+Environment International,10.1016/j.envint.2018.12.010
+International Journal of Cancer,10.1002/ijc.32575
+
