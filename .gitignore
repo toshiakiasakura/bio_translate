@@ -4,6 +4,9 @@
 *.swp
 ~*
 
+test/
+markdown/
+
 .DS_Store
 
 # python 

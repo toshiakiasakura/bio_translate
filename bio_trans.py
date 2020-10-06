@@ -13,6 +13,9 @@ import pubmed_parser as pp
 from Bio import Entrez
 from googletrans import Translator 
 
+import tag_wrapper 
+
+
 Entrez.email = os.getenv("BIO_EMAIL")
 
 
@@ -213,11 +216,12 @@ def wrap_two_columns(text1,text2):
     <div style="display: inline-block;">
         {text1}
     </div>
-- - - - 
+<br> <br>
     <div style="display: inline-block;">
         {text2}
     </div>
 </div>
+<hr>
 """
     return(text)
 
@@ -236,7 +240,7 @@ def remove_specific_element(lis_, word):
 class MDConstructor():
     counter = 0
 
-    def __init__(self,name):
+    def __init__(self,name, keywords=None):
         """Parse xml data using pubmed_parser (OSS). 
 
         Args:
@@ -247,10 +251,23 @@ class MDConstructor():
 
         path = self.path2xml
         self.meta  = pp.parse_pubmed_xml(path)
+
         self.ref   = pp.parse_pubmed_references(path)
         self.paras = pp.parse_pubmed_paragraph(path, all_paragraph=True)
+
+
         self.captions = pp.parse_pubmed_caption(path)
         self.tables = pp.parse_pubmed_table(path)
+
+        self.meta["abstract_jp"] = self.en2jp(self.meta["abstract"])
+        for p in tqdm(self.paras, desc="google trans"):
+            if p["section"] == "":
+                continue
+            p["text"] = p["text"].rstrip().rstrip("\n")
+            p["text_jp"] = self.en2jp(p["text"])
+
+        self.keywords = keywords if keywords != None else ["O3", "ozone", "O 3"] 
+        self.model_keywords = ["model", "regression", "モデル", "回帰"]
 
 
     def en2jp(self,text):
@@ -264,7 +281,7 @@ class MDConstructor():
             str : translated japanese. 
         """
         self.counter += 1 
-        print("google translator counter: ", self.counter)
+        #print("google translator counter: ", self.counter)
         translator = Translator()
         trans_jp = translator.translate(text, src="en", dest="ja")
         return(trans_jp.text)
@@ -282,29 +299,8 @@ class MDConstructor():
         both_text = wrap_two_columns(text_en, text_jp)
         return(both_text)
 
-    def paragraph_constrct(self):
-        """Paragraph constrction for "convert2md" 
-        """
-        text = ""
-        section = ""
-        for p in self.paras:
-            if p["section"] == "":
-                continue
-            if p["section"] != section:
-                section = p["section"]
-                text += f"\n### {section}\n"
-            text += self.list_en_and_jp(p["text"])
-        return(text)
-
-
-    def convert2md(self, open_=True):
-        """Convert parsed dictionary into markdown format. 
-
-        Args:
-            d (dict) : generated from "parse_xml". 
-            path (str)  : target path for markdown file.
-            open_ (bool): open markdown in webbrowser or not.
-
+    def meta_info_md(self):
+        """Construct meta information for markdown. 
         """
         doi = self.meta["doi"]
         authors = [ " ".join(remove_specific_element(author, "Aff\d+")) for author in self.meta["author_list"] ] 
@@ -317,13 +313,99 @@ class MDConstructor():
 - Authors : {authors_str}
 - Publication_date: {self.meta["publication_date"]}
 """
-        abst_both = self.list_en_and_jp(self.meta["abstract"])
-        text += f"""
+        return(text)
+
+    def abstract_md(self):
+        abst_en = self.keywords_handler(self.meta["abstract"])
+        abst_jp = self.keywords_handler(self.meta["abstract_jp"], sp="。")
+        abst_both = wrap_two_columns(abst_en, abst_jp)
+        text = f"""
 ## Abstract 
 {abst_both}
 """
-        text += "\nThesis Body Part\n" 
-        text += self.paragraph_constrct()
+        return(text)
+
+    def keywords_handler(self, text, sp=". ", skip=False): 
+        """Add bold tag "**" for markdown format. 
+
+        Args:
+            text (str) : text. 
+            sp (str)   : separation by this. 
+            skip (str) : contain sentense which do not include specific keywords.
+        """
+        t_lis= text.split(sp)
+        t_lis_tag = []
+        for t in t_lis:
+            t_tag = t 
+            flag = False
+            for k in self.keywords:
+                if k in t: 
+                    t_tag = tag_wrapper.bold(t_tag)
+                    t_tag = tag_wrapper.purple(t_tag)
+                    flag = True
+                    break 
+            for k in self.model_keywords:
+                if k in t:
+                    k_tag = k
+                    k_tag = tag_wrapper.italic(k_tag)
+                    k_tag = tag_wrapper.red(k_tag)
+                    t_tag = t_tag.replace(k, k_tag)
+
+            if not skip:
+                t_lis_tag.append(t_tag)
+            elif flag:
+                t_lis_tag.append(t_tag)
+
+        if len(t_lis_tag) == 0:
+            return("")
+
+        text_tagged = sp.join(t_lis_tag)  
+        #if sp == "。": 
+        #    text_tagged += sp
+        text_tagged = tag_wrapper.fontsize(text_tagged)
+        
+        return(text_tagged)
+
+    def paragraph_constrct(self, skip):
+        """Paragraph constrction for "convert2md" 
+        """
+        text = ""
+        section = ""
+
+        for i,p in enumerate(self.paras):
+            if p["section"] == "":
+                continue
+            if p["section"] != section:
+                section = p["section"]
+                text += f"\n## {section}\n"
+
+            text_en = self.keywords_handler(p["text"], skip=skip) 
+            if text_en == "":
+                continue
+            text_jp = self.keywords_handler(p["text_jp"], sp="。", skip=skip)
+
+            text += wrap_two_columns(text_en, text_jp)
+
+        return(text)
+
+    def convert2md(self, open_=True):
+        """Convert parsed dictionary into markdown format. 
+
+        Args:
+            d (dict) : generated from "parse_xml". 
+            path (str)  : target path for markdown file.
+            open_ (bool): open markdown in webbrowser or not.
+
+        """
+        text = ""
+        text += self.meta_info_md()
+        text += self.abstract_md()
+
+        #text += "\n\n# Thesis Body Part\n" 
+        text += self.paragraph_constrct(skip=False)
+
+        #text += "\n\n# Summarization Part\n" 
+        #text += self.paragraph_constrct(skip=True)
 
         with open(self.path2md, "w") as f:
             f.write(text)
