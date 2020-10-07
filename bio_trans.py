@@ -452,6 +452,12 @@ def doi2markdown(doi,name, open_=False):
     parse_and_save_xml_into_json(name)
     const_md = MDConstructor(name)
     const_md.convert2md(open_)
+
+def access2doi(doi):
+    """Access and open the page of doi. 
+    """
+    url = f"https://doi.org/{doi}"
+    webbrowser.open(url, new=2)
     
 
 class XmlParser():

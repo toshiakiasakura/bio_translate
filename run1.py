@@ -23,6 +23,7 @@ def main():
             bio_trans.doi2markdown(doi, name, args.open)
         except Exception as e:
             print(e)
+            bio_trans.access2doi(doi)
         print("-"*50 + "\n")
 
 def parse_args():
