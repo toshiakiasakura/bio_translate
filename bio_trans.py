@@ -15,7 +15,6 @@ from googletrans import Translator
 
 import tag_wrapper 
 
-
 Entrez.email = os.getenv("BIO_EMAIL")
 
 
@@ -170,7 +169,7 @@ def check_journal_in_PMC(keyword, full=True):
 def get_xml_path(name):
     """Convert name into path to xml data.
     """
-    path = f"./data/{name}.xml"
+    path = f"./xml/{name}.xml"
     return(path)
 
 def get_markdown_path(name):
@@ -179,7 +178,13 @@ def get_markdown_path(name):
     path = f"./markdown/{name}.md"
     return(path)
 
-def save_xml(doi, name):
+def get_json_path(name):
+    """Convert name into path to json data.
+    """
+    path = f"./json/{name}.json" 
+    return(path)
+
+def save_xml_from_doi(doi, name):
     """Save xml data from doi to xml formatted texts. 
 
     Args: 
@@ -192,14 +197,60 @@ def save_xml(doi, name):
     with open(path, "w") as f:
         f.write(text)
 
+def read_json(name):
+    """Read json file produced from pubmed full text xml. 
 
-class WrapText():
-    fontsize = "14px"
+    Args:   
+        name (str) : name of target file without extensions.
+    """
+    path = get_json_path(name)
+    with open(path, "r") as f: 
+        js_ = json.load(f) 
+    return(js_)
+
+def parse_xml_into_json(path, trans=True):
+    """Parse pubmed Central full text xml data and 
+    convert it into json format.
     
-    @classmethod
-    def wrap_fontsize(cls,text):
-        text = f"""<span style="font-size:{cls.fontsize}">{text}</span>"""
-        return(text)
+    Args:
+        path (str)   : path to xml data. 
+        trans (bool) : apply translation if True. 
+    """
+    meta  = pp.parse_pubmed_xml(path)
+    ref   = pp.parse_pubmed_references(path)
+    paras = pp.parse_pubmed_paragraph(path, all_paragraph=True)
+    captions = pp.parse_pubmed_caption(path)
+    tables = pp.parse_pubmed_table(path)
+
+    if trans: 
+        meta["abstract_jp"] = en2jp(meta["abstract"])
+        for p in tqdm(paras, desc="google trans"):
+            if p["section"] == "":
+                continue
+            p["text"] = p["text"].rstrip().rstrip("\n")
+            p["text_jp"] = en2jp(p["text"])
+    js_ = {"meta" : meta, 
+            "ref"  : ref, 
+            "paragraphs": paras,
+            "captions" : captions,
+            "tables"   : tables
+    }
+
+    return(js_)
+
+def parse_and_save_xml_into_json(name) :
+    """Parse xml and save json.
+
+    Args:   
+        name (str) : name of xml. Do not need extensiono of the file.
+    """
+    path2xml = get_xml_path(name)
+    path2json = get_json_path(name) 
+
+    js_= parse_xml_into_json(path2xml)
+    with open(path2json, "w") as f:
+        json.dump(js_, f)
+
 
 def wrap_two_columns(text1,text2):
     """Wrap two texts as two columns.
@@ -237,67 +288,43 @@ def remove_specific_element(lis_, word):
     lis_ = [ v for v in lis_ if not regex.match(v)]
     return(lis_)
 
-class MDConstructor():
-    counter = 0
+def en2jp(text):
+    """Translate text from English to Japanese.
+    Using google translation API.
 
-    def __init__(self,name, keywords=None):
+    Args: 
+        text (str) : text to be translated. Should be English.
+
+    Return:
+        str : translated japanese. 
+    """
+    translator = Translator()
+    trans_jp = translator.translate(text, src="en", dest="ja")
+    return(trans_jp.text)
+
+class MDConstructor():
+
+    def __init__(self,name, keywords=None, model_keywords=None):
         """Parse xml data using pubmed_parser (OSS). 
 
         Args:
-            path (str) : path to xml data.
+            name (str) : name of target file without extensions.
         """
-        self.path2xml = get_xml_path(name)
+        self.path2json = get_json_path(name)
         self.path2md  = get_markdown_path(name)
 
-        path = self.path2xml
-        self.meta  = pp.parse_pubmed_xml(path)
+        with open(self.path2json, "r") as f:
+            js_ = json.load(f)
 
-        self.ref   = pp.parse_pubmed_references(path)
-        self.paras = pp.parse_pubmed_paragraph(path, all_paragraph=True)
-
-
-        self.captions = pp.parse_pubmed_caption(path)
-        self.tables = pp.parse_pubmed_table(path)
-
-        self.meta["abstract_jp"] = self.en2jp(self.meta["abstract"])
-        for p in tqdm(self.paras, desc="google trans"):
-            if p["section"] == "":
-                continue
-            p["text"] = p["text"].rstrip().rstrip("\n")
-            p["text_jp"] = self.en2jp(p["text"])
+        self.meta  = js_["meta"]
+        self.ref   = js_["ref"]
+        self.paras = js_["paragraphs"]
+        self.captions = js_["captions"]
+        self.tables = js_["tables"]
 
         self.keywords = keywords if keywords != None else ["O3", "ozone", "O 3"] 
-        self.model_keywords = ["model", "regression", "モデル", "回帰"]
-
-
-    def en2jp(self,text):
-        """Translate text from English to Japanese.
-        Using google translation API.
-
-        Args: 
-            text (str) : text to be translated. Should be English.
-
-        Return:
-            str : translated japanese. 
-        """
-        self.counter += 1 
-        #print("google translator counter: ", self.counter)
-        translator = Translator()
-        trans_jp = translator.translate(text, src="en", dest="ja")
-        return(trans_jp.text)
-
-    def list_en_and_jp(self,text_en):
-        """list English text and Japanese text in markdown format.
-        Also fontsize is changed.
-
-        Args:
-            en_text (str) : English text. 
-        """
-        text_jp = self.en2jp(text_en)
-        text_en = WrapText.wrap_fontsize(text_en)
-        text_jp = WrapText.wrap_fontsize(text_jp)
-        both_text = wrap_two_columns(text_en, text_jp)
-        return(both_text)
+        self.model_keywords = model_keywords if model_keywords != None \
+            else ["model", "regression", "モデル", "回帰"]
 
     def meta_info_md(self):
         """Construct meta information for markdown. 
@@ -412,7 +439,24 @@ class MDConstructor():
         if open_:
             webbrowser.open(self.path2md, new=2)
 
+def doi2markdown(doi,name, open_=False):
+    """Given doi, convert it into pmc id, fetch full text of the artcile, 
+    parse the full text, translate english into japanse, 
+    sum up into markdown.
+
+    Args:
+        doi (str) : doi.
+        name (str) : name of target file without extensions.
+    """
+    save_xml_from_doi(doi, name)
+    parse_and_save_xml_into_json(name)
+    const_md = MDConstructor(name)
+    const_md.convert2md(open_)
+    
+
 class XmlParser():
+    """This class should be depricated.
+    """
     def __init__(self,text):
         """Set root from xml formatted text.
 

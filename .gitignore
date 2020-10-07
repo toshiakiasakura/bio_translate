@@ -5,6 +5,8 @@
 ~*
 
 test/
+xml/
+json/
 markdown/
 
 .DS_Store
