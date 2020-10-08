@@ -303,8 +303,11 @@ def en2jp(text):
     return(trans_jp.text)
 
 class MDConstructor():
+    keywords = ["O3", "ozone", "O 3"]
+    model_keywords = ["model","Model", "regression","Regression", "モデル", "回帰"]
 
-    def __init__(self,name, keywords=None, model_keywords=None):
+
+    def __init__(self,name):
         """Parse xml data using pubmed_parser (OSS). 
 
         Args:
@@ -321,10 +324,6 @@ class MDConstructor():
         self.paras = js_["paragraphs"]
         self.captions = js_["captions"]
         self.tables = js_["tables"]
-
-        self.keywords = keywords if keywords != None else ["O3", "ozone", "O 3"] 
-        self.model_keywords = model_keywords if model_keywords != None \
-            else ["model", "regression", "モデル", "回帰"]
 
     def meta_info_md(self):
         """Construct meta information for markdown. 
@@ -353,12 +352,14 @@ class MDConstructor():
         return(text)
 
     def keywords_handler(self, text, sp=". ", skip=False): 
-        """Add bold tag "**" for markdown format. 
-
+        """Wrap html tag for sentenses or words which meet specific criteria.
         Args:
             text (str) : text. 
             sp (str)   : separation by this. 
             skip (str) : contain sentense which do not include specific keywords.
+
+        Return: 
+            str : tagged texts.
         """
         t_lis= text.split(sp)
         t_lis_tag = []
@@ -415,7 +416,7 @@ class MDConstructor():
 
         return(text)
 
-    def convert2md(self, open_=True):
+    def convert_json2md(self, open_=True):
         """Convert parsed dictionary into markdown format. 
 
         Args:
@@ -451,7 +452,7 @@ def doi2markdown(doi,name, open_=False):
     save_xml_from_doi(doi, name)
     parse_and_save_xml_into_json(name)
     const_md = MDConstructor(name)
-    const_md.convert2md(open_)
+    const_md.convert_json2md(open_)
 
 def access2doi(doi):
     """Access and open the page of doi. 
@@ -459,86 +460,6 @@ def access2doi(doi):
     url = f"https://doi.org/{doi}"
     webbrowser.open(url, new=2)
     
-
-class XmlParser():
-    """This class should be depricated.
-    """
-    def __init__(self,text):
-        """Set root from xml formatted text.
-
-        Args: 
-            text (str) : xml formatted text.
-
-        Explanation:
-            self.root : xml.etree.elementtree.element object.
-        """
-        self.root = ET.fromstring(text)
-    
-    def print_all_child(self,obj=None, intend=0):
-        """Print all the tags from root with modified indents. 
-
-        Args: 
-            obj (xml.etree.elementtree.element) : xml element object.
-            intend (int) : number of intends, increases as recusively used.
-        """
-        obj = obj if obj != None else self.root
-
-        for child in obj:
-            print(" "*4*intend + child.tag)
-            self.print_all_child(child, intend+1)
-
-    def xml_print(self, iter_text, obj=None):
-        """Print tab, attrib, text at once from self.root. 
-
-        Args: 
-            iter_text (str) : tag name
-        """
-        obj = obj if obj else self.root
-        for neighbor in obj.iter(iter_text):
-            print("#####", neighbor.tag, neighbor.attrib)
-            print(neighbor.text)
-            print()
-
-    def xml_child_print(self,  iter_text, obj=None,):
-        """Print out xml children objects.
-
-        Args: 
-            iter_text (str) : tag name
-            obj (xml.etree.elementtree.element) : xml element object.
-        """
-        obj = obj if obj != None else self.root
-        for neighbor in obj.iter(iter_text):
-            for child in neighbor:
-                self.xml_print(child.tag, child)
-    
-    def print_all_under_obj(self, obj=None):
-        """Print all the texts from objects. 
-
-        Args: 
-            obj (xml.etree.elementtree.element) : xml element object.
-        """
-        obj = obj if obj != None else self.root
-        print(obj.text)
-        children = obj.getchildren()
-        if not len(children):
-            return()
-        for child in children:
-            self.print_all_under_obj(child)
-            print(child.tail)
-            
-    def constract_list(self,obj=None, list_=None):
-        obj = obj if obj != None else self.root
-        list_ = list_ if list_ != None else []
-
-        list_.append(obj.text)
-        children = obj.getchildren()
-        for child in children:
-            self.constract_list(child, list_)
-            list_.append(child.tail)
-        return(list_)
-
-
-
 
 
 
