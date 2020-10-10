@@ -12,6 +12,7 @@ import webbrowser
 import pubmed_parser as pp
 from Bio import Entrez
 from googletrans import Translator 
+import markdown
 
 import tag_wrapper 
 
@@ -184,6 +185,12 @@ def get_json_path(name):
     path = f"./json/{name}.json" 
     return(path)
 
+def get_html_path(name):
+    """Convert name into path to json data.
+    """
+    path = f"./html/{name}.html" 
+    return(path)
+
 def save_xml_from_doi(doi, name):
     """Save xml data from doi to xml formatted texts. 
 
@@ -315,6 +322,7 @@ class MDConstructor():
         """
         self.path2json = get_json_path(name)
         self.path2md  = get_markdown_path(name)
+        self.path2html = get_html_path(name)
 
         with open(self.path2json, "r") as f:
             js_ = json.load(f)
@@ -437,10 +445,19 @@ class MDConstructor():
 
         with open(self.path2md, "w") as f:
             f.write(text)
-        if open_:
-            webbrowser.open(self.path2md, new=2)
 
-def doi2markdown(doi,name, open_=False):
+    def convert_json2html(self,open_):
+        self.convert_json2md(open_)
+
+        markdown.markdownFromFile(
+            input=self.path2md,
+            output=self.path2html,
+            encoding="utf8",
+        )
+        if open_:
+            webbrowser.open(self.path2html, new=2)
+
+def doi2html(doi,name, open_=False):
     """Given doi, convert it into pmc id, fetch full text of the artcile, 
     parse the full text, translate english into japanse, 
     sum up into markdown.
@@ -452,7 +469,9 @@ def doi2markdown(doi,name, open_=False):
     save_xml_from_doi(doi, name)
     parse_and_save_xml_into_json(name)
     const_md = MDConstructor(name)
-    const_md.convert_json2md(open_)
+    const_md.convert_json2html(open_)
+
+
 
 def access2doi(doi):
     """Access and open the page of doi. 

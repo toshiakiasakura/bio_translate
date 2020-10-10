@@ -6,7 +6,7 @@ import bio_trans
 
 
 def create_default_directory():
-    for d in ["xml", "json", "markdown"]:
+    for d in ["xml", "json", "markdown", "html"]:
         if not os.path.exists(d):
             os.mkdir(d)
 
@@ -19,11 +19,12 @@ def trans_csv(args):
         name = r["name"]
         print(f"- doi  : {doi}\n- name : {name}")
         try:
-            if args.json2markdown:
+            if args.json2html:
                 const_md = bio_trans.MDConstructor(name)
-                const_md.convert_json2md(args.open)
+                const_md.convert_json2html(args.open_html)
             else:
-                bio_trans.doi2markdown(doi, name, args.open)
+                print(name)
+                bio_trans.doi2html(doi, name, args.open_html)
         except Exception as e:
             print(e)
             if args.access_doi:
@@ -33,11 +34,11 @@ def trans_csv(args):
 def one_trans(args):
     if args.name == None:
         raise Exception(""" "--name/-n" should also be selected.""")
-    if args.json2markdown:
+    if args.json2html:
         const_md = bio_trans.MDConstructor(args.name)
-        const_md.convert_json2md(args.open)
+        const_md.convert_json2md(args.open_html)
     else:
-        bio_trans.doi2markdown(args.doi, args.name, args.open)
+        bio_trans.doi2html(args.doi, args.name, args.open_html)
 
 def parse_args():
     parser = argparse.ArgumentParser(description="Tranlate article from doi into markdown.")
@@ -48,12 +49,12 @@ def parse_args():
         help="""Name for each file. Name should be without extension. Should be set with "--name/-n" option.""")
     parser.add_argument("--csv",
         help="""Process doi from csv. csv should include "doi" and "name" header.""")
-    parser.add_argument("--open-markdown","-o",  action="store_true",
-        help="""Open tab when markdonws are produced.""")
+    parser.add_argument("--open-html","-o",  action="store_true",
+        help="""Open tab when html are produced.""")
     parser.add_argument("--access-doi","-a",  action="store_false",
         help="""Open target doi.org page when doi is not correctly converted.""")
-    parser.add_argument("--json2markdown","-j",  action="store_false",
-        help="""Convert process starts from json file. If json file does not exist, raise error.""")
+    parser.add_argument("--json2html","-j",  action="store_true",
+        help="""Convert process starts from json file. If html file does not exist, raise error.""")
     parser.add_argument("--check","-c", 
         help="""List up journals used in pubmed central database. Journal data are in jlist.csv.""") 
 
