@@ -10,6 +10,11 @@ def create_default_directory():
         if not os.path.exists(d):
             os.mkdir(d)
 
+def check_env_variable():
+    email= os.getenv("BIO_EMAIL")
+    if email == None:
+        raise Exception(""" Environmental variable "BIO_EMAIL is not specified. """)
+
 def trans_csv(args):
     df_doi = pd.read_csv(args.csv)
     cond = df_doi["status"].isnull()
@@ -61,6 +66,7 @@ def parse_args():
     return(args)
 
 def main():
+    check_env_variable()
     create_default_directory()
     args = parse_args()
     if args.check:
@@ -69,6 +75,10 @@ def main():
         trans_csv(args)
     elif args.doi:
         one_trans(args)
+    else:
+        print("""Error : Use"--doi/-d" and "--name/-n", or "--csv" option.\n""")
+
+    print("Program finished. ")
 
 if __name__ == "__main__":
     main()

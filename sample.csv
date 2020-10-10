@@ -1,17 +1,17 @@
 index,name,doi,journal_name,status,status_temp
-1,002_Bai,10.1002/ijc.32575,International Journal of Cancer,,no journal
-2,008_Garcia,10.1001/jama.2019.5357,,,abstract only
-3,012_Lim,10.1164/rccm.201806-1161OC,,,abstract only
-4,015_Kazemiparkouhi,10.1038/s41370-019-0135-4,,,1
-5,054_Hvidtfeldt,10.1016/j.envint.2018.12.010,Environment International,,no journal
-6,068_sanyal,10.3390/ijerph15112487,,,1
-9,533_Kim,10.2500/aap.2016.37.3918,Allergy and Asthma Proceedings,,no article
-11,5692_Lee_2009,10.1111/j.1398-9995.2009.02014.x,,,no pmc
-12,5693_Moore_2008,10.1289/ehp.10497,,,1
-13,5706_Woodruff_2008,10.1289/ehp.10370,,,1
-14,6197_Anderson_2012,10.1289/ehp.1104724,,,1
-15,6275_Kim_2011,10.1016/j.anai.2011.05.025,,,no pmc
-16,6285_Liao_2011,10.1016/j.scitotenv.2011.04.056,,,1
-17,6346_Vieira_2012,10.1016/j.arbres.2012.05.005,,,no pmc
-18,6399_Chen_2015,10.1016/j.envres.2014.11.021,,,no pmc
-19,6419_Kariisa_2015,10.1080/19338244.2014.932753,,,no pmc 
+1,01_Bai,10.1002/ijc.32575,International Journal of Cancer,,no journal
+2,02_Garcia,10.1001/jama.2019.5357,,,abstract only
+3,03_Lim,10.1164/rccm.201806-1161OC,,,abstract only
+4,04_Kazemiparkouhi,10.1038/s41370-019-0135-4,,,1
+5,05_Hvidtfeldt,10.1016/j.envint.2018.12.010,Environment International,,no journal
+6,06_sanyal,10.3390/ijerph15112487,,,1
+7,07_Kim,10.2500/aap.2016.37.3918,Allergy and Asthma Proceedings,,no article
+8,08_Lee_2009,10.1111/j.1398-9995.2009.02014.x,,,no pmc
+9,09_Moore_2008,10.1289/ehp.10497,,,1
+10,10_Woodruff_2008,10.1289/ehp.10370,,,1
+11,11_Anderson_2012,10.1289/ehp.1104724,,,1
+12,12_Kim_2011,10.1016/j.anai.2011.05.025,,,no pmc
+13,13_Liao_2011,10.1016/j.scitotenv.2011.04.056,,,1
+14,14_Vieira_2012,10.1016/j.arbres.2012.05.005,,,no pmc
+15,15_Chen_2015,10.1016/j.envres.2014.11.021,,,no pmc
+16,16_Kariisa_2015,10.1080/19338244.2014.932753,,,no pmc 
