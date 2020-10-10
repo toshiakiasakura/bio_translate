@@ -4,10 +4,12 @@
 ~*
 
 test/
+doc_temp/
 xml/
 json/
 markdown/
 html/
+doi_management.csv
 
 .DS_Store
 

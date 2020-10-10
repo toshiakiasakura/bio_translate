@@ -41,8 +41,7 @@ def one_trans(args):
         bio_trans.doi2html(args.doi, args.name, args.open_html)
 
 def parse_args():
-    parser = argparse.ArgumentParser(description="Tranlate article from doi into markdown.")
-
+    parser = argparse.ArgumentParser(description="Tranlate article from doi into markdown/html.")
     parser.add_argument("--doi", "-d",
         help="""One doi to markdon. Should be set "--name/-n" option if this is selected.""") 
     parser.add_argument("--name","-n", 
@@ -51,7 +50,7 @@ def parse_args():
         help="""Process doi from csv. csv should include "doi" and "name" header.""")
     parser.add_argument("--open-html","-o",  action="store_true",
         help="""Open tab when html are produced.""")
-    parser.add_argument("--access-doi","-a",  action="store_false",
+    parser.add_argument("--access-doi","-a",  action="store_true",
         help="""Open target doi.org page when doi is not correctly converted.""")
     parser.add_argument("--json2html","-j",  action="store_true",
         help="""Convert process starts from json file. If html file does not exist, raise error.""")
