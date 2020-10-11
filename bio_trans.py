@@ -312,6 +312,8 @@ def en2jp(text):
 class MDConstructor():
     keywords = ["O3", "ozone", "O 3"]
     model_keywords = ["model","Model", "regression","Regression", "モデル", "回帰"]
+    pipe_keywords = [tag_wrapper.bold, tag_wrapper.purple]
+    pipe_model_keywords = [tag_wrapper.italic, tag_wrapper.red]
 
 
     def __init__(self,name):
@@ -349,6 +351,32 @@ class MDConstructor():
 """
         return(text)
 
+    def program_setting_md(self):
+        """Return text of  program setting parameters. 
+        """
+
+        k_high = ", ".join(self.keywords)
+        pipe_k_high= ", ".join([ f.__name__ for f in self.pipe_keywords]) 
+        for f in self.pipe_keywords:
+            pipe_k_high= f(pipe_k_high)
+
+        k_m_high = ", ".join(self.model_keywords)
+        pipe_m_k_high = ", ".join([ f.__name__ for f 
+                                    in self.pipe_model_keywords])
+        for f in self.pipe_model_keywords:
+            pipe_m_k_high= f(pipe_m_k_high)
+
+        
+        text = f"""
+## bio_translate setting 
+- keywords for sentense highlight : <br>&nbsp;&nbsp;    {k_high}
+- highlighting options : <br>&nbsp;&nbsp;{pipe_k_high}
+- keywords for word highlight : <br>&nbsp;&nbsp;{k_m_high}
+- highlighting options : <br>&nbsp;&nbsp;{pipe_m_k_high}
+
+"""
+        return(text)
+
     def abstract_md(self):
         abst_en = self.keywords_handler(self.meta["abstract"])
         abst_jp = self.keywords_handler(self.meta["abstract_jp"], sp="。")
@@ -358,6 +386,36 @@ class MDConstructor():
 {abst_both}
 """
         return(text)
+
+    def process_keywords(self, t_tag):
+        """Process markdown text using class variable of "keywords" and "pip_keywords". 
+
+        Args:
+            t_tag (str) : text which will be tagged.
+        """
+        flag = False
+        for k in self.keywords:
+            if k in t_tag: 
+                for f in self.pipe_keywords:
+                    t_tag = f(t_tag)
+                flag = True
+                break 
+        return(t_tag)
+
+    def process_model_keywords(self, t_tag):
+        """Process markdown text using class variable of 
+        "model_keywords" and "pipe_model_keywords". 
+
+        Args:
+            t_tag (str) : text which will be tagged.
+        """
+        for k in self.model_keywords:
+            if k in t_tag:
+                k_tag = k
+                for f in self.pipe_model_keywords:
+                    k_tag = f(k_tag)
+                t_tag = t_tag.replace(k, k_tag)
+        return(t_tag)
 
     def keywords_handler(self, text, sp=". ", skip=False): 
         """Wrap html tag for sentenses or words which meet specific criteria.
@@ -373,19 +431,8 @@ class MDConstructor():
         t_lis_tag = []
         for t in t_lis:
             t_tag = t 
-            flag = False
-            for k in self.keywords:
-                if k in t: 
-                    t_tag = tag_wrapper.bold(t_tag)
-                    t_tag = tag_wrapper.purple(t_tag)
-                    flag = True
-                    break 
-            for k in self.model_keywords:
-                if k in t:
-                    k_tag = k
-                    k_tag = tag_wrapper.italic(k_tag)
-                    k_tag = tag_wrapper.red(k_tag)
-                    t_tag = t_tag.replace(k, k_tag)
+            t_tag = self.process_keywords(t_tag)
+            t_tag = self.process_model_keywords(t_tag)
 
             if not skip:
                 t_lis_tag.append(t_tag)
@@ -435,6 +482,7 @@ class MDConstructor():
         """
         text = ""
         text += self.meta_info_md()
+        text += self.program_setting_md()
         text += self.abstract_md()
 
         #text += "\n\n# Thesis Body Part\n" 

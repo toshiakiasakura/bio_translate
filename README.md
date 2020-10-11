@@ -8,6 +8,7 @@ bio_translate is a Python library for translating articles and tagging texts int
 - [Initial Setting](#Initial-Setting)
 - [Sample Program](#Sample-Program)
 - [Usage](#Usage)
+- [Formatting Options](#Formatting-Options)
 
 ## Architecture
 
@@ -90,8 +91,18 @@ This option takes argument as keyword and
 search for journal that contains the argument keyword. 
 
 ## Formatting Options
-Formatting is controlled in "MDConstructor" class. 
-Change class variables of "keywords" and "model_keywords".
-"keywords" controls line formatting.
-"model_keywords" controls word formatting.
+Formatting is controlled in "MDConstructor" class.   
+Change class variables of "keywords" and "model_keywords" for sentence and word highlightening.   
+If you want to change highligtening options, change the elements of class variables of "pipe_keywords" and "pipe_model_keywords".   
+
+The following codes are the corresponding part of "bio_trans.py".
+```python
+class MDConstructor():
+    keywords = ["O3", "ozone", "O 3"]
+    model_keywords = ["model","Model", "regression","Regression", "モデル", "回帰"]
+    pipe_keywords = [tag_wrapper.bold, tag_wrapper.purple]
+    pipe_model_keywords = [tag_wrapper.italic, tag_wrapper.red]
+
+```
+
 
