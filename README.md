@@ -1,6 +1,9 @@
 # bio_translate
 
 bio_translate is a Python library for translating articles and tagging texts into Japanese, and output as markdown or html.  
+The image below is one example of output.  
+
+<img src="pic/04_Kazemiparkouhi.png" width="600px">  <br>
 
 ## Table of Contents 
 - [Architecture](#Architecture) 
@@ -37,9 +40,6 @@ Add `BIO_EMAIL` environment variable containing your email address.
 ## Sample Program
 `python main.py --csv sample.csv` will produce sample outputs.  
 See files in markdon/html directory for outputs.  
-The image below is one example of output.  
-
-<img src="pic/04_Kazemiparkouhi.png" width="600px">  <br>
 
 
 "status temp" in sample.csv indicates results of the process. 
